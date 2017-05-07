@@ -18,6 +18,10 @@ https://scops.pro](https://scops.pro)
 * Community on [Facebook](https://www.facebook.com/ScopsPlatform/)
 * Community on [Envato](https://codecanyon.net/item/codeib-social-network/16541361/)
 
+## Donate
+
+You can donate 24$ by buying Scops on [CodeCanyon](https://codecanyon.net/item/codeib-social-network/16541361/)
+
 ## Installation
 
 [Watch on YouTube](https://youtu.be/hiHP6hQ5xKo)
@@ -28,8 +32,8 @@ https://scops.pro](https://scops.pro)
 
 ## Acknowledgments
 
-* US Dollars ( for motivation )
-* Ivaylo Borisov ( for some UX/UI snippets )
+* US Dollars ( For motivation )
+* Ivaylo Borisov ( For some UX/UI snippets )
 
 ## Features
 
