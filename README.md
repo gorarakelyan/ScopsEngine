@@ -6,15 +6,17 @@ https://scops.pro](https://scops.pro)
 
 ![alt tag](http://i.imgur.com/7kD76xq.jpg)
 
-## Demos
+## Demos and Sources
 
-* [About Scops](https://engine.scops.pro)
 * [Live Demo](https://scops.pro)
 * [Mobile Demo](https://m.scops.pro)
 * [Messenger Demo](https://chat.scops.pro)
 * [Admin Demo](https://admin.scops.pro)
   * Admin Username: test@mail.com <br>
   * Admin Password: Test111 <br>
+* [About Scops](https://engine.scops.pro)
+* Community on [Facebook](https://www.facebook.com/ScopsPlatform/)
+* Community on [Envato](https://codecanyon.net/item/codeib-social-network/16541361/)
 
 ## Installation
 
@@ -31,7 +33,6 @@ https://scops.pro](https://scops.pro)
 
 ## Features
 
-![alt tag](http://i.imgur.com/n3VShdq.jpg)
 ![alt tag](http://i.imgur.com/v5YF3Oy.png)
 
 * Registration
