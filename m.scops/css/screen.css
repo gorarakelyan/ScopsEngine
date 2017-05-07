@@ -1,0 +1,28 @@
+/*
+	
+	#p: Scops Engine
+	#a: Gor Arakelyan
+	#c: All rights reserved (c) 2016
+	#!: fb: facebook.com/arakelianGor
+			mail: gor19973010@gmail.com
+
+*/
+
+@media screen and ( max-width: 330px ) {
+	
+	.friend-object .friend-img, .club-object .club-img { 
+		width: 60px;
+		height: 60px;
+	}
+	
+	.chat-place .audio-object {
+		width: 140px;
+	}
+	
+	.chat-place .video-object {
+		width: 140px;
+	}
+	
+	.chat-header .online { margin: 5px; }
+	
+} 

@@ -1,0 +1,63 @@
+/*
+	
+	#p: Scops Engine
+	#a: Gor Arakelyan
+	#c: All rights reserved (c) 2016
+	#!: fb: facebook.com/arakelianGor
+			mail: gor19973010@gmail.com
+
+*/
+
+.panel {
+	padding: 10px;
+  background: #2A80BA;
+  color: #eee;
+  box-shadow: 0 0 10px #56758A;
+}
+
+.panel .logo {
+	background: url('../img/main/logo.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+	width: 40px;
+	margin: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.content { 
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 40px 0;
+	text-align: center; 
+}
+
+.content .header {
+	margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  font-size: 70px;
+  line-height: 200px;
+  border: 3px solid #2A80BA;
+  color: #2A80BA;
+  border-radius: 50%;
+}
+
+.content .header.not-av {
+  font-size: 25px;
+}
+
+.content .title {
+	padding: 30px 0 0;
+	display: inline-block;
+}
+
+.content .title:before { display: none; }
+
+.content .btn {
+	margin: 20px 20px 0;
+}
+
+

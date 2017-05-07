@@ -1,0 +1,23 @@
+RewriteBase /
+
+RewriteEngine On
+ 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+ 
+RewriteRule ^(users|clubs|announcements|settings|statistics|stickers|games|langs|admin|themes|gifts|ads)/?$ php/tab.php?tab=$1 [L,QSA]
+
+Options All -Indexes
+
+ErrorDocument 400 /error/error.php?error=400
+ErrorDocument 401 /error/error.php?error=401
+ErrorDocument 403 /error/error.php?error=403
+ErrorDocument 404 /error/error.php?error=404
+ErrorDocument 405 /error/error.php?error=405
+ErrorDocument 408 /error/error.php?error=408
+ErrorDocument 414 /error/error.php?error=414
+ErrorDocument 500 /error/error.php?error=500
+ErrorDocument 501 /error/error.php?error=501
+ErrorDocument 502 /error/error.php?error=502
+ErrorDocument 503 /error/error.php?error=503
+ErrorDocument 504 /error/error.php?error=504

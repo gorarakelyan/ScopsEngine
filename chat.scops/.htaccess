@@ -1,0 +1,32 @@
+RewriteEngine On
+ 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+ 
+RewriteRule ^(news|search|settings|online|top|dating|events|games)/?$ /error/not_available.html [L,QSA]
+
+RewriteRule ^id([0-9]+)/?$ /error/not_available.html [L,QSA]
+RewriteRule ^id([0-9]+)/([a-zA-Z]+)$ /error/not_available.html [L,QSA]
+
+RewriteRule ^club([0-9]+)/?$ /error/not_available.html [L,QSA]
+RewriteRule ^club([0-9]+)/([a-zA-Z]+)$ /error/not_available.html [L,QSA]
+
+RewriteRule ^post(\d+)$ /error/not_available.html [L,QSA]
+RewriteRule ^game([0-9]+)$ /error/not_available.html [L,QSA]
+
+RewriteRule ^chat([0-9]*)$ main/index.html?tab=chat&id=$1 [L,QSA]
+
+Options All -Indexes
+
+ErrorDocument 400 /error/error.html#400
+ErrorDocument 401 /error/error.html#401
+ErrorDocument 403 /error/error.html#403
+ErrorDocument 404 /error/error.html#404
+ErrorDocument 405 /error/error.html#405
+ErrorDocument 408 /error/error.html#408
+ErrorDocument 414 /error/error.html#414
+ErrorDocument 500 /error/error.html#500
+ErrorDocument 501 /error/error.html#501
+ErrorDocument 502 /error/error.html#502
+ErrorDocument 503 /error/error.html#503
+ErrorDocument 504 /error/error.html#504

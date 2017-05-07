@@ -1,0 +1,320 @@
+/*
+	
+	#p: Scops Engine
+	#a: Gor Arakelyan
+	#c: All rights reserved (c) 2016
+	#!: fb: facebook.com/arakelianGor
+			mail: gor19973010@gmail.com
+
+*/
+
+#pages #pop-up-box {
+	display: none;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 0 1px #ccc;
+	z-index: 30;
+	transition: width 0.2s ease, height 0.3s ease;
+}
+
+#pages #pop-page #page-content {
+	position: absolute;
+	right: 0;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  min-width: 500px;
+	box-shadow: 0 0 2px #bbb;
+  overflow-y: hidden;
+	transition: all 0.3s ease;
+	opacity: 0;
+	background: #fff;
+}
+
+#pages #pop-page .shadow-object {
+	opacity: 0;
+	background: rgba( 10,10,10,0.7 );
+}
+
+#pages #win-page {
+	background: rgba( 0, 0, 0, 0 );
+	transition: all 0.2s ease;
+	overflow-y: scroll;
+}
+
+#pages #win-page #win-table-imit {
+	display: table;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+}
+
+#pages #win-page #win-centering {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#pages #win-page #win-content {
+	background: #fff;
+	margin: auto;
+	position: relative;
+	opacity: 0;
+	transition: all 0.2s ease 0.1s;
+}
+
+#pages #win-page #win-content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#pages #win-page .shadow-object {
+	opacity: 0;
+	left: 0;
+	background: transparent;
+	width: calc( 100% - 25px );
+}
+
+#pages #panel-page {
+	position: fixed;
+	height: 0;
+	width: 400px;
+	top: 0;
+  padding-top: 47px;
+	background: #fff;
+	transition: height 0.2s ease;
+	z-index: 1;
+}
+
+#pages #panel-page #panel-content {
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px #aaa;
+}
+
+#pages #windows-box {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 15;
+}
+
+#pages .mini-window {
+	margin: 20px;
+	padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-shadow: 0 0 1px #000;
+	width: 250px;
+	text-align: center;
+	margin-left: -250px;
+	border-radius: 0 500px 500px 0;
+	transition: all .8s cubic-bezier( 1,0,0,1.5 );
+}
+
+#pages .hover-box {
+  padding: 2px 10px;
+  background: rgba(0, 113, 175,0.9);
+  position: fixed;
+  z-index: 20;
+  color: #fff;
+  box-shadow: 0 0 1px #fff;
+  font-size: 13px;
+	display: none;
+}
+
+#main-panel {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: #597DA3;
+	cursor: default;
+	z-index: 2;
+}
+
+#main-panel .left-side {
+	float: left;
+	padding: 10px 0;
+}
+
+#main-panel .right-side {
+	margin-left: 250px;
+	text-align: left;
+}
+
+#panels #main-panel .panel-obj-info {
+	display: inline-block;
+	padding: 0 12px;
+	cursor: pointer;
+}
+
+#panels #main-panel .panel-obj-info:hover { background: #4F7299; }
+
+#panels #main-panel .panel-obj-info .cell {
+	display: table-cell;
+  vertical-align: middle;
+	height: 50px;
+}
+
+#panels .panel-obj-info .panel-obj-info-icon {
+	text-align:center;
+	color: #3B6187;
+	font-size: 17px;
+	transition: all 0.2s ease;
+}
+
+#panels .panel-obj-info .panel-obj-info-icon span {
+	font-family:'Fontello';
+}
+
+#panels .panel-obj-info .extra {
+	display: none;
+}
+
+#panels .panel-obj-info .new {
+  position: absolute;
+  top: 14px;
+  margin-left: 5px;
+  width: 6px;
+  height: 6px;
+  background: #E02222;
+  box-shadow: 0 0 0 2px #fff;
+  border-radius: 50%;
+	opacity: 0;
+}
+
+#panels .panel-obj-info.menu {
+	float: right;
+}
+
+#panels .panel-obj-info .panel-obj-info-user .name {
+	color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  max-width: 100px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  display: inline-block;
+	vertical-align: middle;
+}
+
+#panels .panel-obj-info .panel-obj-info-user .icon {
+	font-family: 'Fontello';
+	color: #7E9AB7;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+	vertical-align: middle;
+}
+
+#panels .panel-obj-info .panel-obj-info-user .img-content {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+	vertical-align: middle;
+}
+
+#panels .panel-obj-info .panel-obj-info-text {
+	vertical-align: middle;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 0;
+}
+
+#main-panel .cont-obj#logo-icon {
+  height: 30px;
+  width: 35px;
+  margin: 0 10px;
+	display: inline-block;
+	vertical-align: middle;
+	background:url('../../../img/main/logo.png');
+	background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#main-panel #input-panel-search-box {
+	display: inline-block;
+	width: 250px;
+	height: 30px;
+}
+
+#main-panel #input-panel-search {
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 5px 20px;
+  background: #3B6187;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: 500;
+}
+
+#main-panel  #input-panel-search::-webkit-input-placeholder		{ color: #597DA3; }
+#main-panel  #input-panel-search::-o-input-placeholder		{ color: #597DA3; }
+#main-panel  #input-panel-search::-moz-placeholder		{ color: #597DA3; }
+#main-panel  #input-panel-search:-moz-placeholder		{ color: #597DA3; }
+#main-panel  #input-panel-search:-ms-input-placeholder      { color: #597DA3; }
+
+#panels #secondary-panel {
+	position: fixed;
+  z-index: 4;
+	top: 50px;
+  width: 250px;
+	height: 0;
+	opacity: 0;
+	margin-top: 15px;
+	background: #fff;
+	box-shadow: 0 0 5px #999;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
+
+#panels #secondary-panel .line {
+	height: 1px;
+	background: #eee;
+  margin: 5px 15px;
+}
+
+#panels #secondary-panel .panel-object {
+	display: block;	
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 10px;
+	color: #666;
+}
+
+#panels #secondary-panel .panel-object:first-child { margin-top: 10px; }
+#panels #secondary-panel .panel-object:last-child { margin-bottom: 10px; }
+
+#panels #secondary-panel .panel-object .panel-object-content {
+	padding: 5px 15px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+#panels #secondary-panel .panel-object .panel-object-content:hover {
+	background: #f7f7f7;
+}
+
+.din-obj-adding #new-post:after { content: "\e05f"; }
+.din-obj-adding #new-inv:after { content: "\e002"; }
+.din-obj-adding #new-photo:after { content: "\e07f"; }
+.din-obj-adding #new-video:after { content: "\e07e"; }
+.din-obj-adding #new-club:after { content: "\e095"; }
+.din-obj-adding #new-music:after { content: "\e061"; }
+.din-obj-adding #new-ban:after { content: "\e07c"; }
+.din-obj-adding #new-sms:after { content: "\e02c"; }
+.din-obj-adding #new-gift:after { content: "\e02f"; }
+.din-obj-adding #new-question:after { content: "\e05d"; }

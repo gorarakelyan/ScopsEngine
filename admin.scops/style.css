@@ -1,0 +1,164 @@
+/*
+	
+	#p: Scops Engine
+	#a: Gor Arakelyan
+	#c: All rights reserved (c) 2016
+	#!: fb: facebook.com/arakelianGor
+			mail: gor19973010@gmail.com
+
+*/
+
+html , body {
+	width: 100%;
+  height: 100%;
+}
+
+body {
+	font-family: 'Roboto';
+	background: #FCFCFC;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body * {
+	font-size: 14px;
+	box-sizing: border-box;
+	font-weight: 300;
+	font-family: 'Roboto';
+}
+
+body input:focus, body textarea:focus, body button:focus, body select:focus {
+	outline: none;
+}
+
+.layer {
+	background:url('../img/main/1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	display: table;
+	width: 100%;
+	height: 100%;
+	position: relative;
+} 
+ 
+.content-block  {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20px;
+}
+
+.content-block .login-box {
+	width: 420px;
+	padding: 50px;
+	margin: auto;
+  background: rgb(42, 128, 186);
+  color: #fff;
+  box-shadow: 0 0 40px #333;
+}
+
+.content-block .login-box #login-form ,
+.content-block .login-box #remind-form {
+	transition: all 0.3s ease , opacity 0.7s ease;
+}
+
+.content-block .login-box #remind-form {
+	height: 0;
+	overflow: hidden;
+}
+
+.content-block .login-box .item {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.content-block .login-box .option {
+	padding: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  text-align: center;
+  font-size: 12px;
+  text-shadow: 0 0 2px #555;
+  cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.content-block .login-box .option:hover { background: rgba(255, 255, 255, 0.25); }
+
+.content-block .login-box .item.input {
+	padding: 10px;
+	border: none;
+}
+
+.content-block .submit-button {
+	background: #7CC576!important;
+  color: #fff;
+  border: none;
+	padding: 15px;
+	text-align: center;
+  text-shadow: 1px 1px 2px #1A5780;
+	text-transform: uppercase;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.content-block .submit-button:hover { background: #74B16E!important; }
+.content-block .submit-button:active { background: #649E60!important; }
+
+.content-block .login-box  .check {	display: none; }
+.content-block .login-box  .label {	cursor: pointer; }
+.content-block .login-box  .label span { 
+	margin-left: 5px; 
+  text-shadow: 0 0 1px #000;
+}
+
+.content-block .login-box  .check-view {
+	width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: sub;
+  border-radius: 50%;
+  box-shadow: 0 0 1px #fff;
+	transition: all 0.2s ease;
+}
+
+.content-block .login-box  .check:checked + .check-view {
+	box-shadow: 0 0 1px #fff, inset 0 0 0 4px #eee;
+}
+
+.content-block .login-box .logo { 
+	margin: auto;
+	width: 60px;
+	height: 50px;
+	background: url('../img/main/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.content-block .login-box .header.item { 
+	text-align: center;
+  margin: 7px 0 50px;
+}
+
+.content-block .login-box .header.item span {
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+	text-shadow: 0 0 2px #555;
+}
+
+.content-block .login-box .header.item .name {
+  font-weight: 300;
+}
+
+.content-block .login-box header.item {
+	text-shadow: 0 0 2px #555;
+	font-size: 15px;
+}
+
+.content-block .login-box header.item.reg:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

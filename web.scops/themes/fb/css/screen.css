@@ -1,0 +1,63 @@
+/*
+	
+	#p: Scops Engine
+	#a: Gor Arakelyan
+	#c: All rights reserved (c) 2016
+	#!: fb: facebook.com/arakelianGor
+			mail: gor19973010@gmail.com
+
+*/
+
+@media screen and ( min-width: 1500px ) {
+	
+	.container { width: 1100px; }
+	
+	#user-profile #user-cover { height: 347px; }
+	
+	.friend-object, .club-object { width: 260px; }
+	.club-object { height: 146px; }
+	.friend-object { height: 191px; }
+	.friend-object .friend-cover , .club-object .club-cover { height: 82px; }
+	.video-object { width: 540px; }
+	
+} 
+
+@media screen and ( max-width: 1330px ) {
+	
+	.container { width: 800px; }
+	#user-profile #user-cover { height: 252px; }
+	
+	#main-panel #input-panel-search-box { width: 300px; }
+	
+	.friend-object, .club-object { width: 185px; }
+	.club-object { height: 123px; }
+	.friend-object { height: 168px; }
+	.friend-object .friend-cover , .club-object .club-cover { height: 58px; }
+	.video-object { width: 390px; }
+	
+}
+ 
+@media screen and ( max-width: 1200px ) {
+		
+	#content-positioning { 
+		padding-left: 10px; 
+		padding-right: 10px; 
+	}
+	.container {
+		width: 810px;
+	}
+	#main-panel {
+		padding-right: 0;
+	}
+	
+}  
+
+@media screen and ( max-width: 840px ) {
+		
+	#main-panel .container {
+		width: 620px;
+	}
+	#panels #main-panel .panel-obj-info.word { display: none; }
+	#main-panel #input-panel-search-box { width: 200px; }
+	
+}  

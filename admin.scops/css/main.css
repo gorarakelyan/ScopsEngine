@@ -1,0 +1,244 @@
+/*
+	
+	#p: Scops Engine
+	#a: Gor Arakelyan
+	#c: All rights reserved (c) 2016
+	#!: fb: facebook.com/arakelianGor
+			mail: gor19973010@gmail.com
+
+*/
+
+.content-pages {
+	padding: 20px;
+}
+
+.header .form .input-text-object {
+	width: 60%;
+	margin-right: 10px;
+}
+
+.list {
+	margin-top: 20px;
+}
+
+.user-object {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+	margin-top: -4px;
+}
+
+.user-object .thumb {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	float: left;
+}
+
+.user-object.ads-get .thumb { border-radius: 0%; }
+.user-object.game .thumb { border-radius: 0%; }
+.user-object.st .thumb { border-radius: 0%; }
+.user-object.st .info .name { padding: 10px 100px 10px 0; }
+.user-object.lang .info .name { padding: 10px 100px 10px 0; }
+.user-object .info { margin-left: 45px; }
+.user-object .info.no-margin { margin-left: 0; }
+.user-object.report .info { margin-left: 0; }
+.user-object.lang .info { margin-left: 15px; }
+
+.user-object .info .name {
+	display: inline-block;
+	vertical-align: middle;
+  float: left;
+	width: 100%;
+  margin-right: -90px;
+  padding-right: 100px;
+}
+
+.user-object .info .name .icon {
+	font-family: "Fontello";
+	margin-right: 10px;
+	color: #2A80BA;
+}
+
+.user-object .info .loc {
+	color: #aaa;
+	font-size: 13px;
+}
+
+.user-object .info .opt {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	width: 80px;
+}
+
+.user-object .info .opt .verified {
+	margin-top: 5px;
+}
+
+.user-object .info .opt .verified.not {
+	background: transparent;
+	border: 2px solid #2a80ba;
+	padding: 5px 15px;
+	color: #2a80ba;
+	text-shadow: none;
+}
+
+.ads-get .info .limit {
+	display: inline-block;
+	margin-top: 5px;
+	color: #d84343;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 1px solid #d84343;
+	padding: 1px 5px;
+}
+
+.list .user-object:first-child { border-top: 1px solid #eee; }
+
+.header .form .input-textarea-object {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.stat-list .stat .time-title {
+  margin-bottom: 10px;
+	padding: 10px;
+	background: #f9f9f9;
+	text-align: center;
+} 
+
+.stat-list .stat .date {
+  margin-bottom: 70px;
+	text-align: center;
+} 
+
+.stat-list .stat .date:last-child { margin-bottom: 0; }
+
+.stat-list .stat .date .item {
+	display: inline-block;
+	color: #2a80ba;
+	text-align: left;
+	border-bottom: 2px solid;
+  width: 25%;
+}
+
+.stat-list .stat .date.onl .item { color: #71C170; }
+.stat-list .stat .date.week .item { color: #e74c3c; }
+.stat-list .stat .date.month .item { color: #f39c12; }
+
+.stat-list .stat .time-title.onl { color: #71C170; }
+.stat-list .stat .time-title.week { color: #e74c3c; }
+.stat-list .stat .time-title.month { color: #f39c12; }
+
+.stat-list .stat .date .item .num {
+	font-size: 35px;
+  margin: 5px 20px;
+}
+
+.stat-list .stat .date .item .title {
+	font-size: 13px;
+	padding: 4px 15px;
+}
+
+.form.ads .limit-type {
+	margin-top: 10px;
+}
+
+.form.ads .limit-type .input-text-object {
+	margin-top: 10px;
+	display: block;
+}
+
+.header form .title {
+	margin-bottom: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #2a80ba;
+}
+
+.header .theme-header {
+	margin-top: 10px;
+	margin-bottom: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #2a80ba;
+}
+
+.header .admin .title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #2a80ba;
+}
+
+.header .admin .title-sec {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.form.game .input-text-object ,
+.form.ads .input-text-object ,
+.form.sticker .input-text-object { width: 35%; }
+
+.form.ads .input-text-object.hidden {
+	display: none;
+}
+
+.form.game .cover ,
+.form.ads .cover { 
+	display: inline-block;
+  clear: right;
+  padding: 7px 20px;
+}
+
+.form.game .btn,
+.form.ads .btn,
+.form.sticker .btn { margin-top: 10px; }
+
+.form.sticker .thumb ,
+.form.sticker .st ,
+.form.sticker .cover,
+.form.langs .lang { 
+	display: inline-block;
+	margin-right: 10px ;
+}
+
+.st-delete-header {
+	padding-top: 15px;
+  font-size: 15px;
+  text-align: left;
+  color: #086090;
+}
+
+.form.langs form .btn { padding: 11.5px 25px; }
+
+.email-conf {
+	display: block;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.theme-select {
+	padding: 7px 10px;
+  border: 1px solid #e7e7e7;
+  background: #f5f5f5;
+  color: #444;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 2px;
+	margin-bottom: 15px;
+}
+
+/* 
+	extra-light: #5BA0C5;
+	Light: #2A80BA;
+	Dark: #1378B4;
+	Extra Dark: #0071AF;
+	The Darkest: #086090;
+	Darker than the darkest : #07486D;
+*/
