@@ -1,28 +1,28 @@
 # Scops Engine - Social Networking Platform
 ### Current version - 2.0.4
+### [https://scops.pro](https://scops.pro)
 
 **Scops Engine is an innovative social networking website that can be used in your business and serve as a base to create a social networking website for your school, university and etc. It incorporates all the features necessary for comfortable social networking. Make connections with friends, family, customers and acquire new ones by using our dating module and participating in various events. Discover and enjoy music anywhere with our advanced audio player. Share your enjoyable moments with your friends through video and photo sharing.**
 
-![alt tag](http://i.imgur.com/n3VShdq.jpg)
+![alt tag](http://i.imgur.com/7kD76xq.jpg)
 
-## Details
+Community on [Facebook](https://www.facebook.com/ScopsPlatform/)
 
-Community on Facebook: https://www.facebook.com/ScopsPlatform/ <br>
-Live Demo: https://scops.pro <br>
-Mobile Demo: https://m.scops.pro <br>
-Messenger Demo: https://chat.scops.pro <br>
-Admin Demo: https://admin.scops.pro <br>
+[Live Demo](https://scops.pro)
+[Mobile Demo](https://m.scops.pro)
+[Messenger Demo](https://chat.scops.pro)
 
+[Admin Demo](https://admin.scops.pro)
 * Admin Username: test@mail.com <br>
 * Admin Password: Test111 <br>
 
 ## Installation
 
-Fast and easy Installation: https://youtu.be/hiHP6hQ5xKo
+[Watch on YouTube](https://youtu.be/hiHP6hQ5xKo)
 
 ## Authors
 
-Gor Arakelyan
+* Gor Arakelyan
 
 ## Acknowledgments
 
@@ -30,6 +30,9 @@ Gor Arakelyan
 * Ivaylo Borisov ( for some UX/UI snippets )
 
 ## Features
+
+![alt tag](http://i.imgur.com/n3VShdq.jpg)
+![alt tag](http://i.imgur.com/v5YF3Oy.png)
 
 * Registration
   * Login And Sign Up easy (Now is fast)
