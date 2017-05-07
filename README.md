@@ -19,7 +19,7 @@
 
 ## Donate
 
-You can donate 24$ by buying Scops on [CodeCanyon](https://codecanyon.net/item/codeib-social-network/16541361/)
+You can donate 10$ by buying Scops on [CodeCanyon](https://codecanyon.net/item/codeib-social-network/16541361/)
 
 ## Installation
 
