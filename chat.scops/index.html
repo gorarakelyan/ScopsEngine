@@ -1,55 +1,55 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <link rel="shortcut icon" type="image/png" href="../img/main/ico-2.png">
-  <link rel="icon" type="image/png" href="../img/main/ico-2.png">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="style.css">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-  <meta charset="utf-8">
-  
-  <script type="text/javascript" src="config.js"></script>
-  <script type="text/javascript" src="libs/Jquery/jquery.js"></script>
-  <script type="text/javascript" src="js/functions.js"></script>
-  <script type="text/javascript" src="libs/Form/form.js"></script>
-  <script type="text/javascript">
-  
-    if( getCookie('link') ) window.location = '/chat';
-  
-  </script>  
+	<link rel="shortcut icon" type="image/png" href="../img/main/ico-2.png">
+	<link rel="icon" type="image/png" href="../img/main/ico-2.png">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="style.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<meta charset="utf-8">
+	
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript" src="libs/Jquery/jquery.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="libs/Form/form.js"></script>
+	<script type="text/javascript">
+	
+		if( getCookie('link') ) window.location = '/chat';
+	
+	</script>	
 </head>
 <body>
 
 <div class="container">
 
-  <div class="content-block">
-    <div class="services">
-      <div class="s-content">
-        <a target="_blank"><div class="item mob">Mobile app</div></a>
-        <a target="_blank"><div class="item web">Web app</div></a>
-      </div>
-    </div>
-    <div class="table">
-      <div class="content">
-        <div class="icon-box">
-          <div class="logo"></div>
-          <div class="chat"></div>
-        </div>
-        <div class="header"></div>
-        <div class="login-box form-box">
-          <form method="post" id="login-form" data-action="/php_main/app.php" action="">
-            <input type="hidden" name="action" value="log_in">
-            <input type="text" placeholder="Email.." name="login" class="item input">
-            <input type="password" placeholder="Password.." name="password" class="item input">
-            <div id="login-btn" class="item submit-button">Login</div>
-            <div id="login-res"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  
+	<div class="content-block">
+		<div class="services">
+			<div class="s-content">
+				<a target="_blank"><div class="item mob">Mobile app</div></a>
+				<a target="_blank"><div class="item web">Web app</div></a>
+			</div>
+		</div>
+		<div class="table">
+			<div class="content">
+				<div class="icon-box">
+					<div class="logo"></div>
+					<div class="chat"></div>
+				</div>
+				<div class="header"></div>
+				<div class="login-box form-box">
+					<form method="post" id="login-form" data-action="/php_main/app.php" action="">
+						<input type="hidden" name="action" value="log_in">
+						<input type="text" placeholder="Email.." name="login" class="item input">
+						<input type="password" placeholder="Password.." name="password" class="item input">
+						<div id="login-btn" class="item submit-button">Login</div>
+						<div id="login-res"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 </div>
 
 <script type="text/javascript" src="plugin.js"></script>

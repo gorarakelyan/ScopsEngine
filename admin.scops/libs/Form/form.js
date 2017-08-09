@@ -1188,13 +1188,13 @@ $.fn.clearFields = $.fn.clearInputs = function(includeHidden) {
         else if (tag == 'select') {
             this.selectedIndex = -1;
         }
-    else if (t == "file") {
-      if (/MSIE/.test(navigator.userAgent)) {
-        $(this).replaceWith($(this).clone(true));
-      } else {
-        $(this).val('');
-      }
-    }
+		else if (t == "file") {
+			if (/MSIE/.test(navigator.userAgent)) {
+				$(this).replaceWith($(this).clone(true));
+			} else {
+				$(this).val('');
+			}
+		}
         else if (includeHidden) {
             // includeHidden can be the value true, or it can be a selector string
             // indicating a special test; for example:
