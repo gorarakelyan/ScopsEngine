@@ -1,22 +1,22 @@
 /*
-	
-	#p: Scops Engine
-	#a: Gor Arakelyan
-	#c: All rights reserved (c) 2016
-	#!: fb: facebook.com/arakelianGor
-			mail: gor19973010@gmail.com
+  
+  #p: Scops Engine
+  #a: Gor Arakelyan
+  #c: All rights reserved (c) 2016
+  #!: fb: facebook.com/arakelianGor
+      mail: gor19973010@gmail.com
 
 */
 
 @media screen and ( max-width: 1000px ) {
-	
-	#content-positioning { 
-		padding-left: 10px; 
-		padding-right: 10px; 
-	}
-	
-	#main-panel .container { width: 800px; }
-	#main-panel .right-side { margin-left: 150px; }
-	#main-panel #input-panel-search-box { width: 200px; }
-	
+  
+  #content-positioning { 
+    padding-left: 10px; 
+    padding-right: 10px; 
+  }
+  
+  #main-panel .container { width: 800px; }
+  #main-panel .right-side { margin-left: 150px; }
+  #main-panel #input-panel-search-box { width: 200px; }
+  
 }  

@@ -1,30 +1,30 @@
 /*
-	
-	#p: Scops Engine
-	#a: Gor Arakelyan
-	#c: All rights reserved (c) 2016
-	#!: fb: facebook.com/arakelianGor
-			mail: gor19973010@gmail.com
+  
+  #p: Scops Engine
+  #a: Gor Arakelyan
+  #c: All rights reserved (c) 2016
+  #!: fb: facebook.com/arakelianGor
+      mail: gor19973010@gmail.com
 
 */
 
 body {
-	font-family: 'Roboto';
-	background: #FCFCFC;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  font-family: 'Roboto';
+  background: #FCFCFC;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body * {
-	font-size: 14px;
-	box-sizing: border-box;
-	font-weight: 300;
-	font-family: 'Roboto';
+  font-size: 14px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: 'Roboto';
 }
 
 body input:focus, body textarea:focus, body button:focus, body select:focus {
-	outline: none;
+  outline: none;
 }
 
 ::-webkit-input-placeholder { color: #ddd; }
@@ -35,121 +35,121 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
 .container {
   position: absolute;
   height: 100%;
-	width: 100%;
+  width: 100%;
 }
 
 .content-block { height: 100%; }
  
 .content-block  .table  {
-	height: 100%;
-	width: 100%;
-	display: table;
-	color: #fff;
-	background-image: url('../img/bg/3.jpg');
-	background-size: cover;
-	background-position: 50%;
-	background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: table;
+  color: #fff;
+  background-image: url('../img/bg/3.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
  .content-block  .content  {
-	height: 100%;
-	display: table-cell;
-	vertical-align: middle;
-	background-color: rgba(42, 128, 186, 0.85);
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: rgba(42, 128, 186, 0.85);
 }
 
 .content-block .form-box {
-	max-width: 400px;
+  max-width: 400px;
   padding: 0 20px 40px;
   margin: auto;
 }
 
 .content-block .form-box.hidden {
-	display: none;
+  display: none;
 }
 
 .content-block .form-box #login-form {
-	transition: all 0.3s ease , opacity 0.7s ease;
+  transition: all 0.3s ease , opacity 0.7s ease;
 }
 
 .content-block .form-box .item {
-	display: block;
-	width: 100%;
-	margin-top: 20px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .content-block .form-box .option {
-	padding: 8px;
+  padding: 8px;
   background: rgba(255, 255, 255, 0.15);
   text-align: center;
   font-size: 12px;
   text-shadow: 0 0 2px #555;
   cursor: pointer;
-	transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .content-block .form-box .option:hover { background: rgba(255, 255, 255, 0.25); }
 
 .content-block .form-box .item.input {
-	padding: 10px;
-	border: none;
+  padding: 10px;
+  border: none;
   background: transparent;
   border-bottom: 1px solid rgba(255,255,255,0.4);
-	color: #f4f4f4;
-	transition: all 0.2s ease;
+  color: #f4f4f4;
+  transition: all 0.2s ease;
 }
 
 .content-block .form-box .item.input:focus {  border-bottom: 1px solid rgba(255,255,255,1); }
 
 .content-block .submit-button {
-	background: rgba(124, 197, 118, 0.6)!important;
+  background: rgba(124, 197, 118, 0.6)!important;
   color: #fff;
   border: none;
-	border-radius: 2px;
-	padding: 15px;
-	text-align: center;
+  border-radius: 2px;
+  padding: 15px;
+  text-align: center;
   text-shadow: 1px 1px 2px #1A5780;
-	text-transform: uppercase;
-	transition: all 0.2s ease;
-	cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .content-block .submit-button:hover { background: rgba(124, 197, 118, 0.7)!important; }
 .content-block .submit-button:active { background: rgba(124, 197, 118, 0.8)!important; }
 
-.content-block .form-box  .check {	display: none; }
-.content-block .form-box  .label {	cursor: pointer; }
+.content-block .form-box  .check {  display: none; }
+.content-block .form-box  .label {  cursor: pointer; }
 .content-block .form-box  .label span { 
-	margin-left: 5px; 
+  margin-left: 5px; 
   text-shadow: 0 0 1px #000;
 }
 
 .content-block .form-box  .check-view {
-	width: 15px;
+  width: 15px;
   height: 15px;
   display: inline-block;
   vertical-align: sub;
   border-radius: 50%;
   box-shadow: 0 0 1px #fff;
-	transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .content-block .form-box  .check:checked + .check-view {
-	box-shadow: 0 0 1px #fff, inset 0 0 0 4px #eee;
+  box-shadow: 0 0 1px #fff, inset 0 0 0 4px #eee;
 }
 
 .content-block .logo { 
-	margin: 50px auto;
+  margin: 50px auto;
   width: 70px;
   height: 55px;
-	background: url('../img/main/logo.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+  background: url('../img/main/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .content-block .form-box .header.item { 
-	text-align: center;
+  text-align: center;
   margin: 7px 0 50px;
 }
 
@@ -157,7 +157,7 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
   font-weight: 700;
   font-size: 38px;
   text-transform: uppercase;
-	text-shadow: 0 0 2px #555;
+  text-shadow: 0 0 2px #555;
 }
 
 .content-block .form-box .header.item .name {
@@ -165,31 +165,31 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
 }
 
 .content-block .form-box header.item {
-	text-shadow: 0 0 2px #555;
-	font-size: 15px;
+  text-shadow: 0 0 2px #555;
+  font-size: 15px;
 }
 
 .content-block .form-box header.item.reg {
-	margin-top: 50px;
+  margin-top: 50px;
   text-align: center;
 }
 
 .content-block .form-box header.item.reg:hover {
-	cursor: pointer;
-	text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .content-block.layer { margin-left: 420px; }
 
 .content-block.layer .bg {
-	height: 100%;
-	background: rgba(42, 128, 186, 0.25);
-	transition: background 0.2s ease;
-	overflow-y: auto;
+  height: 100%;
+  background: rgba(42, 128, 186, 0.25);
+  transition: background 0.2s ease;
+  overflow-y: auto;
 }
 
 .content-block.layer .table-imit {
-	display: table;
+  display: table;
   height: 100%;
 }
 
@@ -198,12 +198,12 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
 
 .input-box.select select {
   padding: 10px;
-	margin-left: -0.25em;
+  margin-left: -0.25em;
   border: none;
-	background: rgba( 255, 255, 255 , 0.1 );
-	color: #fff;
-	cursor: pointer;
-	text-align: center;
+  background: rgba( 255, 255, 255 , 0.1 );
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
 }
 
 .input-box.select select:focus option { color: #000; }
@@ -214,19 +214,19 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
 
 .content-block .form-box.reg-box .input-info-content {
   padding: 8px 10px;
-	margin-bottom: 15px;
+  margin-bottom: 15px;
   text-align: center;
   background: rgba(255, 255, 255, 0.2);
-	border-radius: 0 0 2px 2px;
-	color: #fff;
-	text-shadow: 0 0 2px #666;
+  border-radius: 0 0 2px 2px;
+  color: #fff;
+  text-shadow: 0 0 2px #666;
 }
 
 .form-box.reg-box .gender .input-info-content {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .form-box.reg-box #result {
-	margin-top: 15px;
-	display: none;
+  margin-top: 15px;
+  display: none;
 }

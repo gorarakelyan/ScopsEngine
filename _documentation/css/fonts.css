@@ -1,10 +1,10 @@
 /*
-	
-	#p: Scops Engine
-	#a: Gor Arakelyan
-	#c: All rights reserved (c) 2016
-	#!: fb: facebook.com/arakelianGor
-			mail: gor19973010@gmail.com
+  
+  #p: Scops Engine
+  #a: Gor Arakelyan
+  #c: All rights reserved (c) 2016
+  #!: fb: facebook.com/arakelianGor
+      mail: gor19973010@gmail.com
 
 */
 
@@ -65,12 +65,12 @@
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
-	font-family: 'Fontello';
-	src:url('../fonts/fontello.eot');
-	src:url('../fonts/fontello.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/fontello.woff') format('woff'),
-		url('../fonts/fontello.ttf') format('truetype'),
-		url('../fonts/fontello.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Fontello';
+  src:url('../fonts/fontello.eot');
+  src:url('../fonts/fontello.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fontello.woff') format('woff'),
+    url('../fonts/fontello.ttf') format('truetype'),
+    url('../fonts/fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }

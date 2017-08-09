@@ -1,120 +1,120 @@
 /*
-	
-	#p: Scops Engine
-	#a: Gor Arakelyan
-	#c: All rights reserved (c) 2016
-	#!: fb: facebook.com/arakelianGor
-			mail: gor19973010@gmail.com
+  
+  #p: Scops Engine
+  #a: Gor Arakelyan
+  #c: All rights reserved (c) 2016
+  #!: fb: facebook.com/arakelianGor
+      mail: gor19973010@gmail.com
 
 */
 
 #pages #pop-up-box {
-	display: none;
-	width: 0;
-	height: 0;
-	overflow: hidden;
-	background: #fff;
-	box-shadow: 0 0 1px #ccc;
-	z-index: 30;
-	transition: width 0.2s ease, height 0.3s ease;
+  display: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 1px #ccc;
+  z-index: 30;
+  transition: width 0.2s ease, height 0.3s ease;
 }
 
 #pages #pop-page #page-content {
-	position: absolute;
-	right: 0;
+  position: absolute;
+  right: 0;
   top: 0;
   width: 80%;
   height: 100%;
   min-width: 500px;
-	box-shadow: 0 0 2px #bbb;
+  box-shadow: 0 0 2px #bbb;
   overflow-y: hidden;
-	transition: all 0.3s ease;
-	opacity: 0;
-	background: #fff;
+  transition: all 0.3s ease;
+  opacity: 0;
+  background: #fff;
 }
 
 #pages #pop-page .shadow-object {
-	opacity: 0;
-	background: rgba( 10,10,10,0.7 );
+  opacity: 0;
+  background: rgba( 10,10,10,0.7 );
 }
 
 #pages #win-page {
-	background: rgba( 0, 0, 0, 0 );
-	transition: all 0.2s ease;
-	overflow-y: scroll;
+  background: rgba( 0, 0, 0, 0 );
+  transition: all 0.2s ease;
+  overflow-y: scroll;
 }
 
 #pages #win-page #win-table-imit {
-	display: table;
-	width: 100%;
-	height: 100%;
-	padding: 40px;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
 }
 
 #pages #win-page #win-centering {
-	display: table-cell;
-	vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #pages #win-page #win-content {
-	background: #fff;
-	margin: auto;
-	position: relative;
-	opacity: 0;
-	transition: all 0.2s ease 0.1s;
+  background: #fff;
+  margin: auto;
+  position: relative;
+  opacity: 0;
+  transition: all 0.2s ease 0.1s;
 }
 
 #pages #win-page #win-content:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #pages #win-page .shadow-object {
-	opacity: 0;
-	left: 0;
-	background: transparent;
-	width: calc( 100% - 25px );
+  opacity: 0;
+  left: 0;
+  background: transparent;
+  width: calc( 100% - 25px );
 }
 
 #pages #panel-page {
-	position: fixed;
-	height: 0;
-	width: 400px;
-	top: 0;
+  position: fixed;
+  height: 0;
+  width: 400px;
+  top: 0;
   padding-top: 43px;
-	background: #fff;
-	transition: height 0.2s ease;
-	z-index: 1;
+  background: #fff;
+  transition: height 0.2s ease;
+  z-index: 1;
 }
 
 #pages #panel-page #panel-content {
-	width: 100%;
-	height: 100%;
-	overflow-y: scroll;
-	border: 1px solid #ccc;
-	box-shadow: 0 0 10px #aaa;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #aaa;
 }
 
 #pages #windows-box {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	z-index: 15;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 15;
 }
 
 #pages .mini-window {
-	margin: 20px;
-	padding: 20px;
+  margin: 20px;
+  padding: 20px;
   background: rgba(59,89,152,0.8);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-	color: #fff;
-	text-shadow: 0 0 1px #000;
-	width: 250px;
-	text-align: center;
-	margin-left: -250px;
-	border-radius: 0 500px 500px 0;
-	transition: all .8s cubic-bezier( 1,0,0,1.5 );
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  width: 250px;
+  text-align: center;
+  margin-left: -250px;
+  border-radius: 0 500px 500px 0;
+  transition: all .8s cubic-bezier( 1,0,0,1.5 );
 }
 
 #pages .hover-box {
@@ -125,67 +125,67 @@
   color: #fff;
   box-shadow: 0 0 1px #fff;
   font-size: 13px;
-	display: none;
+  display: none;
 }
 
 #main-panel {
-	position: fixed;
-	top: 0;
-	left: 0;
-	padding-right: 250px;
-	width: 100%;
-	height: 45px;
-	background: #3B5998;
-	border-bottom: 1px solid #29487D;
-	cursor: default;
-	z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-right: 250px;
+  width: 100%;
+  height: 45px;
+  background: #3B5998;
+  border-bottom: 1px solid #29487D;
+  cursor: default;
+  z-index: 2;
 }
 
 #main-panel .left-side {
-	float: left;
-	padding: 7px 0;
+  float: left;
+  padding: 7px 0;
 }
 
 #main-panel .right-side {
-	float: right;
+  float: right;
 }
 
 #panels #main-panel .panel-obj-info {
-	display: inline-block;
-	padding: 0 7px;
-	cursor: pointer;
+  display: inline-block;
+  padding: 0 7px;
+  cursor: pointer;
 }
 
 #panels #main-panel .panel-obj-info.menu {
-	border-left: 1px solid #365089;
-	padding-left: 15px;
+  border-left: 1px solid #365089;
+  padding-left: 15px;
 }
 
 #panels #main-panel .panel-obj-info.word {
-	border-left: 1px solid #365089;
-	border-right: 1px solid #365089;
-	padding: 0 15px;
+  border-left: 1px solid #365089;
+  border-right: 1px solid #365089;
+  padding: 0 15px;
 }
 
 #panels #main-panel .panel-obj-info .cell {
-	display: table-cell;
+  display: table-cell;
   vertical-align: middle;
-	height: 45px;
+  height: 45px;
 }
 
 #panels .panel-obj-info .panel-obj-info-icon {
-	text-align:center;
-	color: #17233D;
-	font-size: 17px;
-	transition: all 0.2s ease;
+  text-align:center;
+  color: #17233D;
+  font-size: 17px;
+  transition: all 0.2s ease;
 }
 
 #panels .panel-obj-info .panel-obj-info-icon span {
-	font-family:'Fontello';
+  font-family:'Fontello';
 }
 
 #panels .panel-obj-info .extra {
-	display: none;
+  display: none;
 }
 
 #panels .panel-obj-info .new {
@@ -197,93 +197,93 @@
   background: #E02222;
   box-shadow: 0 0 0 2px #fff;
   border-radius: 50%;
-	opacity: 0;
+  opacity: 0;
 }
 
 #panels .panel-obj-info .panel-obj-info-user .img-content {
-	display: block;
-	width: 30px;
-	height: 30px;
+  display: block;
+  width: 30px;
+  height: 30px;
   margin: auto;
   border-radius: 2px;
-	transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 #panels .panel-obj-info .panel-obj-info-text {
-	vertical-align: middle;
-	color: #fff;
-	font-size: 14px;
-	padding: 5px 0;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0;
 }
 
 #main-panel .cont-obj#logo-icon {
   height: 30px;
   width: 35px;
   margin: 0 10px;
-	display: inline-block;
-	vertical-align: middle;
-	background:url('../../../img/main/logo.png');
-	background-position: 50% 50%;
+  display: inline-block;
+  vertical-align: middle;
+  background:url('../../../img/main/logo.png');
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 #main-panel #input-panel-search-box {
-	display: inline-block;
-	width: 400px;
-	height: 30px;
+  display: inline-block;
+  width: 400px;
+  height: 30px;
 }
 
 #main-panel #input-panel-search {
-	width: 100%;
-	height: 100%;
-	border: none;
-	padding: 5px 10px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 5px 10px;
   background: #fff;
-	border-radius: 2px;
-	color: #333;
+  border-radius: 2px;
+  color: #333;
 }
 
 #panels #secondary-panel {
-	position: fixed;
+  position: fixed;
   z-index: 4;
-	top: 45px;
+  top: 45px;
   width: 250px;
-	height: 0;
-	opacity: 0;
-	margin-top: 15px;
-	background: #fff;
-	box-shadow: 0 0 5px #999;
-	height: 0;
-	overflow: hidden;
-	transition: all 0.2s ease;
+  height: 0;
+  opacity: 0;
+  margin-top: 15px;
+  background: #fff;
+  box-shadow: 0 0 5px #999;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
 }
 
 #panels #secondary-panel .line {
-	height: 1px;
-	background: #eee;
+  height: 1px;
+  background: #eee;
   margin: 5px 15px;
 }
 
 #panels #secondary-panel .panel-object {
-	display: block;	
+  display: block;  
   font-size: 14px;
   font-weight: 300;
   margin: 0 10px;
-	color: #666;
+  color: #666;
 }
 
 #panels #secondary-panel .panel-object:first-child { margin-top: 10px; }
 #panels #secondary-panel .panel-object:last-child { margin-bottom: 10px; }
 
 #panels #secondary-panel .panel-object .panel-object-content {
-	padding: 5px 15px;
-	cursor: pointer;
-	transition: all 0.2s ease;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 #panels #secondary-panel .panel-object .panel-object-content:hover {
-	background: #f7f7f7;
+  background: #f7f7f7;
 }
 
 .din-obj-adding #new-post:after { content: "\e05f"; }

@@ -1,144 +1,144 @@
 /*
-	
-	#p: Scops Engine
-	#a: Gor Arakelyan
-	#c: All rights reserved (c) 2016
-	#!: fb: facebook.com/arakelianGor
-			mail: gor19973010@gmail.com
+  
+  #p: Scops Engine
+  #a: Gor Arakelyan
+  #c: All rights reserved (c) 2016
+  #!: fb: facebook.com/arakelianGor
+      mail: gor19973010@gmail.com
 
 */
 
 body {
-	font-family: 'Roboto';
-	background: #FCFCFC;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  font-family: 'Roboto';
+  background: #FCFCFC;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body * {
-	font-size: 14px;
-	box-sizing: border-box;
-	font-weight: 300;
-	font-family: 'Roboto';
+  font-size: 14px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: 'Roboto';
 }
 
 body input:focus, body textarea:focus, body button:focus, body select:focus {
-	outline: none;
+  outline: none;
 }
 
 .container {
-	position: fixed;
-	width: 100%;
-	height: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .content-block { height: 100%; }
 
 .content-block.login{
-	float: left;
+  float: left;
 }
  
 .content-block  .table  {
-	height: 100%;
-	display: table;
-	background: #2A80BA;
-	color: #fff;
-	box-shadow: 0 0 40px #333;
+  height: 100%;
+  display: table;
+  background: #2A80BA;
+  color: #fff;
+  box-shadow: 0 0 40px #333;
 }
 
  .content-block  .content  {
-	height: 100%;
-	display: table-cell;
-	vertical-align: middle;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .content-block .login-box {
-	width: 420px;
-	padding: 50px;
+  width: 420px;
+  padding: 50px;
 }
 
 .content-block .login-box #login-form ,
 .content-block .login-box #remind-form {
-	transition: all 0.3s ease , opacity 0.7s ease;
+  transition: all 0.3s ease , opacity 0.7s ease;
 }
 
 .content-block .login-box #remind-form {
-	height: 0;
-	overflow: hidden;
+  height: 0;
+  overflow: hidden;
 }
 
 .content-block .login-box .item {
-	display: block;
-	width: 100%;
-	margin-top: 20px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .content-block .login-box .option {
-	padding: 8px;
+  padding: 8px;
   background: rgba(255, 255, 255, 0.15);
   text-align: center;
   font-size: 12px;
   text-shadow: 0 0 2px #555;
   cursor: pointer;
-	transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .content-block .login-box .option:hover { background: rgba(255, 255, 255, 0.25); }
 
 .content-block .login-box .item.input {
-	padding: 10px;
-	border: none;
+  padding: 10px;
+  border: none;
 }
 
 .content-block .submit-button {
-	background: #7CC576!important;
+  background: #7CC576!important;
   color: #fff;
   border: none;
-	padding: 15px;
-	text-align: center;
+  padding: 15px;
+  text-align: center;
   text-shadow: 1px 1px 2px #1A5780;
-	text-transform: uppercase;
-	transition: all 0.2s ease;
-	cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .content-block .submit-button:hover { background: #74B16E!important; }
 .content-block .submit-button:active { background: #649E60!important; }
 
-.content-block .login-box  .check {	display: none; }
-.content-block .login-box  .label {	cursor: pointer; }
+.content-block .login-box  .check {  display: none; }
+.content-block .login-box  .label {  cursor: pointer; }
 .content-block .login-box  .label span { 
-	margin-left: 5px; 
+  margin-left: 5px; 
   text-shadow: 0 0 1px #000;
 }
 
 .content-block .login-box  .check-view {
-	width: 15px;
+  width: 15px;
   height: 15px;
   display: inline-block;
   vertical-align: sub;
   border-radius: 50%;
   box-shadow: 0 0 1px #fff;
-	transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .content-block .login-box  .check:checked + .check-view {
-	box-shadow: 0 0 1px #fff, inset 0 0 0 4px #eee;
+  box-shadow: 0 0 1px #fff, inset 0 0 0 4px #eee;
 }
 
 .content-block .login-box .logo { 
-	margin: auto;
-	width: 60px;
-	height: 50px;
-	background: url('../img/main/logo.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+  margin: auto;
+  width: 60px;
+  height: 50px;
+  background: url('../img/main/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .content-block .login-box .header.item { 
-	text-align: center;
+  text-align: center;
   margin: 7px 0 50px;
 }
 
@@ -146,7 +146,7 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
   font-weight: 700;
   font-size: 38px;
   text-transform: uppercase;
-	text-shadow: 0 0 2px #555;
+  text-shadow: 0 0 2px #555;
 }
 
 .content-block .login-box .header.item .name {
@@ -154,116 +154,116 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
 }
 
 .content-block .login-box header.item {
-	text-shadow: 0 0 2px #555;
-	font-size: 15px;
+  text-shadow: 0 0 2px #555;
+  font-size: 15px;
 }
 
 .content-block .login-box header.item.reg:hover {
-	cursor: pointer;
-	text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .content-block.layer { margin-left: 420px; }
 
 .content-block.layer .bg {
-	height: 100%;
-	background: rgba(42, 128, 186, 0.25);
-	transition: background 0.2s ease;
-	overflow-y: auto;
+  height: 100%;
+  background: rgba(42, 128, 186, 0.25);
+  transition: background 0.2s ease;
+  overflow-y: auto;
 }
 
 .content-block.layer .table-imit {
-	display: table;
+  display: table;
   height: 100%;
 }
 
 .content-block.registration #reg-form {    
-	display: none;
+  display: none;
   vertical-align: middle;
-	width: 515px;
+  width: 515px;
   min-width: 515px;
   padding: 25px;
   padding-right: 10px;
-	opacity: 0;
-	transition: width 0.4s ease, opacity 0.3s ease 0.1s;
+  opacity: 0;
+  transition: width 0.4s ease, opacity 0.3s ease 0.1s;
 }
  
 .content-block.registration #reg-form header { 
   padding-bottom: 20px;
   font-size: 23px;
-	text-shadow: 0 0 2px #555;
+  text-shadow: 0 0 2px #555;
   color: #fff;
-	width: 320px;
+  width: 320px;
 }
 
 .content-block.registration #reg-form .input-box {
-	width: 100%;
-	margin-bottom: 5px;
-	height: 51px;
-	overflow: hidden;
-	transition: all 0.4s ease;
+  width: 100%;
+  margin-bottom: 5px;
+  height: 51px;
+  overflow: hidden;
+  transition: all 0.4s ease;
 }
 
 .content-block.registration #reg-form .input-box .input-info {
-	width: 50%;
-	display: inline-block;
-	padding: 3px 5px;
-	float: right;
+  width: 50%;
+  display: inline-block;
+  padding: 3px 5px;
+  float: right;
 }
 
 .content-block.registration #reg-form .input-info-content {
-	max-width: 280px;
-	padding: 0 15px;
-	height: 45px;
-	background: #2A80BA;
-	font-size: 12px;
-	color: #fff;
+  max-width: 280px;
+  padding: 0 15px;
+  height: 45px;
+  background: #2A80BA;
+  font-size: 12px;
+  color: #fff;
   text-shadow: 1px 1px 2px #444;
-	border-radius: 2px;
-	text-align: left;
-	vertical-align: middle;
+  border-radius: 2px;
+  text-align: left;
+  vertical-align: middle;
   display: table-cell;
 }
 
 .content-block.registration #reg-form .input-box .input-trin {
-	width: 0;
-	height: 0;
-	margin-top: 12px;
-	border-style: solid;
-	border-width: 10px 6px 10px 0px;
-	border-color: transparent #2A80BA transparent transparent;
-	float: left;
+  width: 0;
+  height: 0;
+  margin-top: 12px;
+  border-style: solid;
+  border-width: 10px 6px 10px 0px;
+  border-color: transparent #2A80BA transparent transparent;
+  float: left;
 }
  
 .content-block.registration #reg-form input , .content-block.registration #reg-form select {
-	width: 50%;
-	padding: 15px;
+  width: 50%;
+  padding: 15px;
   border: none;
   background: rgba(255, 255, 255, 0.8);
-	transition: all 0.2s ease;
-	vertical-align: top;
+  transition: all 0.2s ease;
+  vertical-align: top;
 }
 
 .content-block.registration #reg-form input:focus , .content-block.registration #reg-form select:focus {
-	
+  
   background: rgba( 255, 255, 255, 1 );
 }
 
 .content-block.registration #reg-form select {
-	width: auto;
-	color: #666;
-	padding: 8px 10px;
-	margin-top: 6px;
+  width: auto;
+  color: #666;
+  padding: 8px 10px;
+  margin-top: 6px;
 }
 
 .content-block.registration #reg-form .input-box.result-box { height: 0px; } 
 .content-block.registration #reg-form .input-box.select { text-align: right; }
 .content-block.registration #reg-form .submit-box,
-.content-block.registration #reg-form .result-box {	text-align: left; }
+.content-block.registration #reg-form .result-box {  text-align: left; }
 
 .content-block.registration #reg-form .submit-button {
-	width: 327px;
-	margin: auto;
+  width: 327px;
+  margin: auto;
 }
 
 .content-block.registration #reg-form #result {
@@ -274,21 +274,21 @@ body input:focus, body textarea:focus, body button:focus, body select:focus {
 }
 
 .wrong {
-	border: 1px solid #eee;
+  border: 1px solid #eee;
   border-radius: 3px;
   padding: 2px;
   text-align: center;
-	display: none;
+  display: none;
 }
 
 @media screen and ( max-width: 960px ) {
-	.content-block .login-box { width: 350px; }
-	.content-block.layer { margin-left: 350px; }
+  .content-block .login-box { width: 350px; }
+  .content-block.layer { margin-left: 350px; }
 }
  
 @media screen and ( max-width: 890px ) {
-	.content-block .login-box { width: 300px; }
-	.content-block.layer { margin-left: 300px; }
+  .content-block .login-box { width: 300px; }
+  .content-block.layer { margin-left: 300px; }
 }
  
  

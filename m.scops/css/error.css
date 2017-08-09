@@ -1,28 +1,28 @@
 /*
-	
-	#p: Scops Engine
-	#a: Gor Arakelyan
-	#c: All rights reserved (c) 2016
-	#!: fb: facebook.com/arakelianGor
-			mail: gor19973010@gmail.com
+  
+  #p: Scops Engine
+  #a: Gor Arakelyan
+  #c: All rights reserved (c) 2016
+  #!: fb: facebook.com/arakelianGor
+      mail: gor19973010@gmail.com
 
 */
 
 .panel {
-	padding: 10px;
+  padding: 10px;
   background: #2A80BA;
   color: #eee;
   box-shadow: 0 0 10px #56758A;
 }
 
 .panel .logo {
-	background: url('../img/main/logo.png');
+  background: url('../img/main/logo.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
   height: 40px;
-	width: 40px;
-	margin: auto;
+  width: 40px;
+  margin: auto;
   display: block;
   cursor: pointer;
 }
@@ -31,11 +31,11 @@
   max-width: 400px;
   margin: 50px auto;
   padding: 40px 0;
-	text-align: center; 
+  text-align: center; 
 }
 
 .content .header {
-	margin: 20px auto;
+  margin: 20px auto;
   width: 200px;
   height: 200px;
   font-size: 70px;
@@ -50,14 +50,14 @@
 }
 
 .content .title {
-	padding: 30px 0 0;
-	display: inline-block;
+  padding: 30px 0 0;
+  display: inline-block;
 }
 
 .content .title:before { display: none; }
 
 .content .btn {
-	margin: 20px 20px 0;
+  margin: 20px 20px 0;
 }
 
 

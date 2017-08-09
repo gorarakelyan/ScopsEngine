@@ -1,88 +1,88 @@
 /*
-	
-	#p: Scops Engine
-	#a: Gor Arakelyan
-	#c: All rights reserved (c) 2016
-	#!: fb: facebook.com/arakelianGor
-			mail: gor19973010@gmail.com
+  
+  #p: Scops Engine
+  #a: Gor Arakelyan
+  #c: All rights reserved (c) 2016
+  #!: fb: facebook.com/arakelianGor
+      mail: gor19973010@gmail.com
 
 */
 
 #pages #pop-up-box {
-	display: none;
-	width: 0;
-	height: 0;
-	overflow: hidden;
-	background: #fff;
-	box-shadow: 0 0 1px #ccc;
-	z-index: 30;
-	transition: width 0.2s ease, height 0.3s ease;
+  display: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 1px #ccc;
+  z-index: 30;
+  transition: width 0.2s ease, height 0.3s ease;
 }
 
 
 #pages #windows-box {
   position: fixed;
   left: 0;
-	top: 40px;
+  top: 40px;
   z-index: 25;
 }
 
 #pages .mini-window {
-	margin: 20px;
-	padding: 20px;
+  margin: 20px;
+  padding: 20px;
   background: rgba(0, 113, 175,0.9);
   box-shadow: 0 0 5px #07486D;
-	color: #fff;
-	text-shadow: 0 0 1px #000;
-	width: 250px;
-	text-align: center;
-	margin-left: -250px;
-	border-radius: 0 500px 500px 0;
-	transition: all .8s cubic-bezier( 1,0,0,1.5 );
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  width: 250px;
+  text-align: center;
+  margin-left: -250px;
+  border-radius: 0 500px 500px 0;
+  transition: all .8s cubic-bezier( 1,0,0,1.5 );
 }
 
 #panels  {
-	z-index: 15;
+  z-index: 15;
 }
 
 #panels .top-panel {
-	z-index: 15;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 56px;
-	background: #fff;
-	text-align: center;
+  z-index: 15;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  background: #fff;
+  text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
 
 #panels .top-panel .container {
-	padding: 0;
-	text-align: center;
+  padding: 0;
+  text-align: center;
 }
 
 #panels .top-panel .item {
-	display: inline-block;
-	color: #2a80ba;
-	line-height: 50px;
-	cursor: pointer;
-	padding: 3px 20px;
-	border-left: 1px solid #eee;
-	width: 33.333%;
-	margin-left: -0.25em;
-	font-size: 20px;
+  display: inline-block;
+  color: #2a80ba;
+  line-height: 50px;
+  cursor: pointer;
+  padding: 3px 20px;
+  border-left: 1px solid #eee;
+  width: 33.333%;
+  margin-left: -0.25em;
+  font-size: 20px;
   text-align: center;
 }
 
 #panels .top-panel .item:first-child { border-left: none; }
 
 #panels .top-panel .item .icon {
-	font-family: 'Fontello';
+  font-family: 'Fontello';
 }
 
 #panels .top-panel .item .new {
-	display: none;
+  display: none;
   width: 8px;
   height: 8px;
   margin-bottom: 4px;
@@ -91,57 +91,57 @@
 }
 
 #panels #main-panel {
-	z-index: 15;
+  z-index: 15;
   position: fixed;
   top: 0px;
   left: -250px;
   width: 250px;
   height: 100%;
   overflow-y: auto;
-	transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 #panels #main-panel .item {
-	width: 100%;
+  width: 100%;
   padding: 12px 0;
   font-size: 16px;
-	cursor: pointer;
-	transition: all 0.2s ease;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 #panels #main-panel .item:hover .icon { color: #2a80ba; }
 #panels #main-panel .item:hover { background: #f8f8f8; }
 
 #panels #main-panel .item  .cell {
-	display: table-cell;
+  display: table-cell;
   vertical-align: middle;
   width: 100%;
 }
 
 #panels #main-panel .item  .title {
-	width: 140px;
-	font-size: 13px;
+  width: 140px;
+  font-size: 13px;
   color: #666;
-	font-weight: 400;
-	line-height: 25px;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 #panels #main-panel .item  .icon {
-	font-family: 'Fontello';
-	width: 60px;
-	text-align: center;
+  font-family: 'Fontello';
+  width: 60px;
+  text-align: center;
   line-height: 25px;
-	color: #999;
-	transition: all 0.2s ease;
+  color: #999;
+  transition: all 0.2s ease;
 }
 
 #panels #main-panel .item .cell  > div {
-	float: left;
+  float: left;
   height: 25px;
 }
 
 #panels #main-panel .item .extra {
-	font-size: 12px;
+  font-size: 12px;
   display: inline-block;
   width: 25px;
   text-align: center;
@@ -153,324 +153,324 @@
 }
 
 #panels .footer {
-	padding: 10px 20px;
-	color: #666;
+  padding: 10px 20px;
+  color: #666;
   font-size: 13px;
 }
 
 #panels .footer .lang {
   display: inline-block;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #panels .footer .lang:hover { text-decoration: underline; }
 
 #panels #main-panel .item.search { 
-	padding: 10px 20px 0;
+  padding: 10px 20px 0;
   background: #F4F4F4;
 }
 
 #panels #main-panel .item.search .find { 
-	width: 100%;
-	border-radius: 2px;
-	border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #ccc;
   padding: 5px 10px;
   background: #FDFCFC;
-	font-size: 13px;
+  font-size: 13px;
 }
 
 #panels #main-panel .item.account { 
-	background: #f4f4f4;  
+  background: #f4f4f4;  
   padding: 15px 0; 
 }
 
 #panels #main-panel .item.account .icon .img {
-	width: 25px;
+  width: 25px;
   height: 25px;
   margin: auto;
   border-radius: 50%;
 }
 
 #pages #pop-page #page-content {
-	position: absolute;
-	left: 0;
+  position: absolute;
+  left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-	box-shadow: 0 0 2px #bbb;
+  box-shadow: 0 0 2px #bbb;
   overflow-y: hidden;
-	transition: all 0.3s ease;
-	opacity: 0;
-	background: #fcfcfc;
+  transition: all 0.3s ease;
+  opacity: 0;
+  background: #fcfcfc;
 }
 
 #pages #panel-page {
-	position: fixed;
-	left: -150%;
+  position: fixed;
+  left: -150%;
   top: 0;
   width: 100%;
   height: 100%;
-	transition: all 0.2s ease;
-	background: #fff;
-	z-index: 17;
-	overflow-y: auto;
+  transition: all 0.2s ease;
+  background: #fff;
+  z-index: 17;
+  overflow-y: auto;
 }
 
 #pages #pop-page .shadow-object {
-	opacity: 0;
-	background: rgba( 10,10,10,0.7 );
+  opacity: 0;
+  background: rgba( 10,10,10,0.7 );
 }
 
 #pages #win-page {
-	background: rgba( 0, 0, 0, 0 );
-	transition: all 0.2s ease;
-	overflow-y: scroll;
+  background: rgba( 0, 0, 0, 0 );
+  transition: all 0.2s ease;
+  overflow-y: scroll;
 }
 
 #pages #win-page #win-table-imit {
-	display: table;
-	width: 100%;
-	height: 100%;
-	padding: 10px;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 
 #pages #win-page #win-centering {
-	display: table-cell;
-	vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #pages #win-page #win-content {
-	background: #fff;
-	margin: auto;
-	position: relative;
-	opacity: 0;
-	transition: all 0.2s ease 0.1s;
+  background: #fff;
+  margin: auto;
+  position: relative;
+  opacity: 0;
+  transition: all 0.2s ease 0.1s;
 }
 
 #pages #win-page #win-content:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #pages #win-page .shadow-object {
-	opacity: 0;
-	left: 0;
-	background: transparent;
-	width: calc( 100% - 25px );
+  opacity: 0;
+  left: 0;
+  background: transparent;
+  width: calc( 100% - 25px );
 }
 
 #user-profile #user-cover {
-	width: 100%;
+  width: 100%;
 }
 
 #user-profile #user-profile-options {
-	padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 #user-profile #user-profile-options .online {
   height: 14px;
   width: 14px; 
-	margin-top: 93px;
+  margin-top: 93px;
   display: inline-block;
   border-radius: 50%;
-	box-shadow: 0 0 0 4px rgba( 255, 255, 255, 0.5 );
-	background: #86DC85;
+  box-shadow: 0 0 0 4px rgba( 255, 255, 255, 0.5 );
+  background: #86DC85;
 }
 
 #user-profile #user-profile-options .user-option-object.img {
-	width: 100px;
-	height:	100px;
-	border-radius: 50%;
+  width: 100px;
+  height:  100px;
+  border-radius: 50%;
   margin: -25px auto 10px;
-	box-shadow: 0 0 0 8px rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 0 0 8px rgba( 255, 255, 255, 0.5 );
 }
 
 #user-profile #user-profile-options .user-option-object.name { 
-	padding: 2px 20px;
-	font-size: 22px; 
+  padding: 2px 20px;
+  font-size: 22px; 
   color: #1378B4;
 }
 
 #user-profile #user-profile-options .user-option-object {
-	padding: 0 20px;
-	font-size: 13px;
-	text-align: center;
+  padding: 0 20px;
+  font-size: 13px;
+  text-align: center;
   color: #999;
-	text-shadow: 0 0 1px #ccc;
+  text-shadow: 0 0 1px #ccc;
 }
 
 #user-profile-requests {
-	margin-top: -20px;
-	padding: 0 10px;
-	text-align: center;
+  margin-top: -20px;
+  padding: 0 10px;
+  text-align: center;
 }
 
 #user-profile-requests .round-icon {
-	display: inline-block;
-	margin: 0 5px;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 #user-profile-controls {
-	margin-top: 15px;
-	overflow-y: auto;
+  margin-top: 15px;
+  overflow-y: auto;
 }
 
 #user-profile-controls #user-menu {
-	height: 115px;
-	padding: 15px;
-	padding-right: 0;
-	width: 1035px;
+  height: 115px;
+  padding: 15px;
+  padding-right: 0;
+  width: 1035px;
 }
 
 #user-profile-controls #user-menu .menu-block {
-	padding: 10px;
-	height: 85px;
-	width: 160px;
-	margin-right: 10px;
-	background: #E7E8ED;
-	border-radius: 2px;
-	float: left;
-	text-align: center;
-	cursor: pointer;
-	transition: all 0.2s ease;
+  padding: 10px;
+  height: 85px;
+  width: 160px;
+  margin-right: 10px;
+  background: #E7E8ED;
+  border-radius: 2px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 
 #user-profile-controls #user-menu .menu-block.selected {
-	background: #eee;
-	box-shadow: inset 0 0 15px #ddd;
+  background: #eee;
+  box-shadow: inset 0 0 15px #ddd;
 }
 
 #user-profile-controls #user-menu .menu-block .block-icon {
-	margin: 8px;
+  margin: 8px;
   font-size: 16px;
   color: #aaa;
-	font-family: 'Fontello';
+  font-family: 'Fontello';
 }
 
 #user-profile-controls #user-menu .menu-block .block-name {
-	font-weight: 500;
-	color: #666;
+  font-weight: 500;
+  color: #666;
 }
 
 #user-profile-controls #user-menu .menu-block .block-num {
-	color: #777;
-	font-size: 13px;
+  color: #777;
+  font-size: 13px;
 }
 
 #user-content  #content-show { margin-top: 20px; }
 
 .media-box:after {
-	clear: both;
-	content: "";
-	display: table;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .photo-object {
-	width: 33.33333%;
-	height: 150px;
-	padding: 0 2px 2px 0;
-	float: left;
-	cursor: pointer;
+  width: 33.33333%;
+  height: 150px;
+  padding: 0 2px 2px 0;
+  float: left;
+  cursor: pointer;
 }
 
 .photo-object:nth-child(3n) {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 .photo-object:last-child { margin-bottom: 15px; }
 
 .photo-object .img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #panel-content .friend-object {
-	padding: 10px;
-	margin: 0;
-	border: none;
-	border-bottom: 1px solid #e5e5e5;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 #panel-content .friend-object .friend-img {
-	width: 50px;
-	height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .friend-object, .club-object {
-	padding: 25px;
-	cursor: pointer;
-	margin-bottom: 10px;
+  padding: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .friend-object:last-child, .club-object:last-child { margin-bottom: 0; }
 
 .friend-object.block, .club-object.block {
-	background: #fdfdfd;
-	cursor: default;
-	text-align: center;
+  background: #fdfdfd;
+  cursor: default;
+  text-align: center;
 }
 
 .friend-object .table, .club-object .table {
-	display: table;
-	table-layout: auto;
+  display: table;
+  table-layout: auto;
 }
 
 .friend-object .col, .club-object .col {
-	display: table-cell;
-	vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .friend-object .friend-img, .club-object .club-img {
-	height: 90px;
+  height: 90px;
   width: 90px;
   border-radius: 50%;
-	margin-right: 15px;
-	float: left;
+  margin-right: 15px;
+  float: left;
 }
 
 .friend-object .about, .club-object .about {
-	width: 100%;
-	max-width: 0;
-	text-align: center;
+  width: 100%;
+  max-width: 0;
+  text-align: center;
 }
 
 .friend-object .name ,
 .club-object .name {
-	color: #2a80ba;
+  color: #2a80ba;
 }
 
 .friend-object .age {
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 .friend-object .age ,
 .friend-object .city {
-	color: #888;
-	font-size: 13px;
+  color: #888;
+  font-size: 13px;
 }
 
 .club-object .desc {
-	margin: 10px;
+  margin: 10px;
   margin-bottom: 0;
   font-size: 13px;
-	color: #888;
-	line-height: 18px;
+  color: #888;
+  line-height: 18px;
   max-height: 90px;
   overflow: hidden;
 }
 
 .video-object {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .video-object .thumb {
-	height: 100px;
-	background-color: #000;
-	cursor: pointer;
+  height: 100px;
+  background-color: #000;
+  cursor: pointer;
 }
-	
+  
 .video-object .video-body  {
   color: #fff;
   background: rgba(0,0,0,1);
@@ -478,92 +478,92 @@
 }
 
 .video-object .video-body  .title {
-	height: 20px;
-	overflow: hidden;
+  height: 20px;
+  overflow: hidden;
 }
 
 .video-object .video-body  .host {
-	font-size: 11px;
+  font-size: 11px;
   color: #ccc;
 }
 
 .video-object  .option {
-	position: absolute;
+  position: absolute;
   margin: 5px;
   padding: 5px 8px;
   background: rgba( 255,255,255,0.3);
-	border-radius: 2px;
-	font-size: 12px;
+  border-radius: 2px;
+  font-size: 12px;
   color: #000;
-	cursor: pointer;
-	transition: background 0.2s ease;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .video-object  .option span {
-	vertical-align: text-bottom;
-	font-family: 'Fontello';
-	margin-right: 5px;
+  vertical-align: text-bottom;
+  font-family: 'Fontello';
+  margin-right: 5px;
 }
 
 .video-object .option:hover { background: rgba( 255,255,255,0.6); }
 
 .content-pages .options {
-	text-align: center;
-	color: #777;
+  text-align: center;
+  color: #777;
 }
 
 .content-pages .options .block {
-	padding: 10px;
-	margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .content-pages .options .option {
-	display: inline-block;
-	font-size: 13px;
-	padding: 8px 13px;
-	border-bottom: 2px solid transparent;
-	transition: all 0.2s ease;
-	cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  padding: 8px 13px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .content-pages .options .option.selected{
-	color: #2a80ba;
+  color: #2a80ba;
 }
 
 .content-pages .options .icon {
-	font-family: "Fontello";
-	display: inline-block;
-	margin-right: 8px;
+  font-family: "Fontello";
+  display: inline-block;
+  margin-right: 8px;
 }
 
 .content-pages .options .title {
-	display: inline-block;
+  display: inline-block;
 }
 
 #search-area { 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #search-area #search-form .input-text-object { 
-	display: block;
-	width: 70%;
+  display: block;
+  width: 70%;
   margin: 5px auto;
 }
 
 #search-area #search-form .input-btn-object { 
-	display: block;
+  display: block;
   margin: auto;
-	padding: 7px 25px;
+  padding: 7px 25px;
 }
 
 #pages #audioplayer {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	left: -150%;
-	z-index: 17;
-	background: #f6f6f6;
-	transition: all 0.2s ease;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: -150%;
+  z-index: 17;
+  background: #f6f6f6;
+  transition: all 0.2s ease;
 }
 
 #pages #audioplayer .box {
@@ -571,98 +571,98 @@
 }
 
 #pages .panel-header {
-	height: 56px;
-	padding: 8px 20px;
+  height: 56px;
+  padding: 8px 20px;
   color: #2a80ba;
   border-bottom: 1px solid #e5e5e5;
-	display: table;
+  display: table;
   table-layout: auto;
   width: 100%;
 }
 
 #pages .panel-header .cell {
-	display: table-cell;
-	vertical-align: middle;
-	padding: 0 10px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 10px;
 }
 
 #pages .panel-header .cell.close {
-	text-align: right;
-	cursor: pointer;
+  text-align: right;
+  cursor: pointer;
 }
 
 #pages #audioplayer .box .input { 
-	width: 100%;
-	padding: 7px 12px!important;
-	border: 1px solid #0071AF;
+  width: 100%;
+  padding: 7px 12px!important;
+  border: 1px solid #0071AF;
 }
 
 #pages #audioplayer .player {
-	padding: 0 1px;
+  padding: 0 1px;
 }
-	
+  
 #pages #audioplayer .player .audio-body { padding: 7px 7px 0; }
 #pages #audioplayer .player .options { display: block; }
 
 #pages #audioplayer .playlist {
-	padding: 15px 5px 5px;
-	overflow-y: scroll;
+  padding: 15px 5px 5px;
+  overflow-y: scroll;
 }
 
 #pages #audioplayer .playlist header {
-	margin-bottom: 20px;
-	color: #086090;
-	text-align: center;
+  margin-bottom: 20px;
+  color: #086090;
+  text-align: center;
 }
 
 #pages #audioplayer .playlist .empty {
-	margin: -15px 10px;
+  margin: -15px 10px;
   padding: 20px;
 }
 
-#pages #audioplayer .playlist .audio-object {	
-	margin: 7px 5px;
+#pages #audioplayer .playlist .audio-object {  
+  margin: 7px 5px;
 }
-#pages #audioplayer .playlist .audio-object .audio-body {	
-	padding: 3px;
+#pages #audioplayer .playlist .audio-object .audio-body {  
+  padding: 3px;
 }
-#pages #audioplayer .playlist .audio-object .options  {	display: none; }
-#pages #audioplayer .playlist .audio-object .audio-line  {	display: none; }
+#pages #audioplayer .playlist .audio-object .options  {  display: none; }
+#pages #audioplayer .playlist .audio-object .audio-line  {  display: none; }
 
 .audio-object  {
-	margin-bottom: 10px;
-	color: #2a80ba;
+  margin-bottom: 10px;
+  color: #2a80ba;
 }
 
 .audio-object .audio-body {
-	padding: 7px;
-	height: 40px;
+  padding: 7px;
+  height: 40px;
   overflow: hidden;
   box-sizing: content-box;
 }
 
 .audio-object .audio-body .audio-func {
-	float: left;
-	width: 40px;
-	height: 40px;
+  float: left;
+  width: 40px;
+  height: 40px;
   font-size: 20px;
   text-align: center;
   line-height: 40px;
-	font-family: 'Fontello';
-	cursor: pointer;
+  font-family: 'Fontello';
+  cursor: pointer;
 }
 
 .audio-object .audio-body .audio-func .pause { display: none; }
 
 .audio-object .audio-body .audio-info {
-	margin-left: 40px;
-	padding-right: 10px;
-	height: 40px;
+  margin-left: 40px;
+  padding-right: 10px;
+  height: 40px;
 }
 
 .audio-object .audio-body .audio-info .dur {
-	float: right;
-	font-size: 13px;
+  float: right;
+  font-size: 13px;
 }
 
 .audio-object .audio-body .audio-info .name {  max-width: calc(100% - 65px); }
@@ -670,8 +670,8 @@
 .audio-object .audio-body .audio-info .name,
 .audio-object .audio-body .audio-info .dur,
 .audio-object .audio-body .audio-info .adding-options {
-	display: inline-block;
-	overflow: hidden;  
+  display: inline-block;
+  overflow: hidden;  
   line-height: 40px;
 }
 
@@ -679,25 +679,25 @@
 
 .audio-object .audio-body .audio-info .adding-options .opt {
   width: 15px;
-	font-family: "Fontello";
-	margin-left: 10px;
-	cursor: pointer;
+  font-family: "Fontello";
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .audio-object .options {
-	height: 0px;
-	transition: all 0.2s ease;
-	overflow: hidden;
-	clear: both;
-	display: none;
+  height: 0px;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  clear: both;
+  display: none;
 }
 
 .audio-object .options .loop {
-	display: inline-block;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	cursor: pointer;
-	transition: all 0.2s ease;
+  display: inline-block;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .audio-object .options .volume  { display: none; }
@@ -711,107 +711,107 @@
 }
 
 .audio-object .options .loop .icon {
-	display: inline-block;
-	font-family: 'Fontello';
-	margin-right: 5px;
-	width: 20px;
+  display: inline-block;
+  font-family: 'Fontello';
+  margin-right: 5px;
+  width: 20px;
   height: 20px;
-	line-height: 20px;
+  line-height: 20px;
   text-align: center;
-	border-radius: 50%;
-	vertical-align: middle;
-	transition: all 0.2s ease;
+  border-radius: 50%;
+  vertical-align: middle;
+  transition: all 0.2s ease;
 }
 
 .audio-object .options .loop .name {
-	font-size: 13px;
-	display: none;
+  font-size: 13px;
+  display: none;
 }
 
 .audio-object .audio-line {
-	height: 7px;
-	background: #eee;
+  height: 7px;
+  background: #eee;
 }
 
 .audio-object .audio-line .loader {
-	height: 7px;
-	background: #2a80ba;
-	width: 0;
+  height: 7px;
+  background: #2a80ba;
+  width: 0;
 }
 
 .audio-object .audio-line .seek {
-	height: 7px;
-	margin-top: -7px;
+  height: 7px;
+  margin-top: -7px;
 }
 
 
 #video-player {
-	width:100%;
-	height:100%;
-	background: #000;
-	display:none;
+  width:100%;
+  height:100%;
+  background: #000;
+  display:none;
 }
 
 #video-player #video-stream {
-	width: 100%;
-	height: 100%;
-	margin:auto;
-	display: block;	
-	cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin:auto;
+  display: block;  
+  cursor: pointer;
 }
 
 #video-player #video-controls {
-	height: 70px;
-	margin-top: -70px;
-	position: relative;
-	padding: 0 15px;
-	padding-top: 10px;
-	box-sizing: border-box;
-	background: rgba( 0,0,0,0.2);
+  height: 70px;
+  margin-top: -70px;
+  position: relative;
+  padding: 0 15px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  background: rgba( 0,0,0,0.2);
 }
 
 #video-player #video-controls #video-dur {
-	height: 20px;
-	padding: 8px 0;
-	cursor: pointer;
+  height: 20px;
+  padding: 8px 0;
+  cursor: pointer;
 }
 
 #video-player #video-controls #vid-pointer {
-	height: 10px;
+  height: 10px;
   width: 12px;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   margin-top: -7px;
-	margin-left: -5px;
+  margin-left: -5px;
   box-shadow: 0 0 1px #999;
-	transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 #video-player #video-controls #video-dur #vid-loader-box { height: 4px; }
 
 #video-player #video-controls #video-dur #vid-loader-place {
-	height: 100%;
-	background:rgba(255,255,255,0.3);
+  height: 100%;
+  background:rgba(255,255,255,0.3);
 }
 
 #video-player #video-controls #video-dur #vid-loader {
-	height: 100%;
-	background: #fff;
-	width: 0;
-	margin-top: -4px;
+  height: 100%;
+  background: #fff;
+  width: 0;
+  margin-top: -4px;
 }
 
 #video-player #video-controls #video-buttons #video-left-buttons  { float:left; }
-#video-player #video-controls #video-buttons #video-right-buttons  {	float:right; }
+#video-player #video-controls #video-buttons #video-right-buttons  {  float:right; }
 
 #video-player #video-controls #video-buttons .vid-button {
-	display: inline-block;
-	padding: 5px 10px;
-	font-size: 13px;
-	color: #fff;
-	background: transparent;
-	transition: background 0.3s ease;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 13px;
+  color: #fff;
+  background: transparent;
+  transition: background 0.3s ease;
 }
 
 #video-player #video-controls #video-buttons #vid-stop, 
@@ -822,8 +822,8 @@
 #video-player #video-controls #video-buttons #vid-res { margin-top: 2px; }
 
 #video-player #video-controls #video-buttons .vid-button.vid-icon.vid-point { 
-	cursor:pointer; 
-	transition: color 0.2s ease;
+  cursor:pointer; 
+  transition: color 0.2s ease;
 }
 
 #video-player #video-controls #video-buttons .vid-button.vid-icon.vid-point:hover { color: #ccc; }
@@ -832,58 +832,58 @@
 #pages #panel-page .panel-header { table-layout: fixed; }
 
 #pages #panel-page .panel-header .cell {
-	padding: 10px;
+  padding: 10px;
 }
 
 .notification-object {
-	width: 100%;
-	font-size: 13px;
-	border-bottom: 1px solid #eee;
+  width: 100%;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
 }
 
 .notification-object .notif-content .first-line {
-	display: table;
-	table-layout: auto;
+  display: table;
+  table-layout: auto;
   border-spacing: 0;
-	width: 100%;
+  width: 100%;
 }
 
 
 .notification-object .notif-content .first-line  .row {
-	display: table-row;
+  display: table-row;
 }
 
 .notification-object .notif-content .content-img {
-	display: table-cell;
-	vertical-align: middle;
-	width: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 40px;
 } 
 
 .notification-object .notif-content .content-img .img {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .notification-object .notif-content .content-new {
-	width: 30px;
-	text-align: center;
+  width: 30px;
+  text-align: center;
 }
 
 .notification-object .notif-content .item {
-	display: table-cell;
-	vertical-align: middle;
-	min-height: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  min-height: 40px;
   padding: 10px;
-	transition: all 0.4s ease;
+  transition: all 0.4s ease;
   max-width: 0;
-	border-right: 1px solid #eee;
+  border-right: 1px solid #eee;
 }
 
 .notification-object .notif-content  .row .item.author { box-sizing: content-box; }
 
 .notification-object .notif-content .item:last-child {
-	border-right: none;
+  border-right: none;
 }
 
 .notification-object .new-notif {
@@ -895,159 +895,159 @@
 }
 
 .notification-object .sent-msg-img {
-	width: 30px;
-	height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .notification-object.msg-notif:hover {
-	cursor: pointer;
-	background: #fcfcfc;
+  cursor: pointer;
+  background: #fcfcfc;
 }
 
 .notification-object .app-vers-chat-name {
-	color: #888;
+  color: #888;
   font-weight: 500;
 }
 
 .content-pages .settings {
-	padding: 15px;
-	padding-top: 0;
+  padding: 15px;
+  padding-top: 0;
 }
 
 .content-pages .settings .header:first-child { margin: 0; }
 
 .content-pages .settings .header {
-	font-size: 15px;
-	color: #2a80ba;
-	text-align: center;
-	padding: 15px 0;
-	margin-top: 15px;
+  font-size: 15px;
+  color: #2a80ba;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 15px;
 }
 
 .content-pages .settings .input-text-object { width: 100%; }
 
 .content-pages .settings .simple {
-	color: #aaa;
-	padding: 5px 15px;
-	margin-bottom: 20px;
-	border-bottom: 2px solid #ddd;
-	transition: all 0.2s ease;
-	font-size: 12px;
+  color: #aaa;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  transition: all 0.2s ease;
+  font-size: 12px;
 }
 
 .content-pages .settings .input-text-object:focus ~ .simple {
-	color: #2a80ba;
-	border-bottom: 2px solid #2a80ba;
+  color: #2a80ba;
+  border-bottom: 2px solid #2a80ba;
 }
 
 .content-pages .settings .submit {
-	margin-top: 15px;
-	display: inline-block;
+  margin-top: 15px;
+  display: inline-block;
 }
 
 .content-pages .settings .select {
-	padding: 7px 12px;
+  padding: 7px 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
   background: #FDFDFD;
   color: #07486D;
-	display: block;
-	margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .content-pages .settings .birth .select {
-	margin-right: 5px;
-	display: inline-block;
+  margin-right: 5px;
+  display: inline-block;
 }
 
 #chat-small-screen {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	margin: 10px;
-	z-index:1;
-	display: none;
-	font-family: "Fontello";
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  z-index:1;
+  display: none;
+  font-family: "Fontello";
 }
 
 #chat {
-	position: fixed;
-	right: 0;
-	top: 0;
-	width: 250px;
-	height: 100%;
-	padding-top: 90px;
-	background: #E1E1E1;
-	box-shadow: inset 0 0 5px #BFBFBF;
-	z-index:1;
-	transition: all 0.2s ease;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  padding-top: 90px;
+  background: #E1E1E1;
+  box-shadow: inset 0 0 5px #BFBFBF;
+  z-index:1;
+  transition: all 0.2s ease;
 }
 
 #chat .chat-empty {
-	padding: 15px 10px;
-	box-sizing: content-box;
-	margin: 10px;
-	background: #f7f7f7;
-	cursor: default;
-	text-align: center;
+  padding: 15px 10px;
+  box-sizing: content-box;
+  margin: 10px;
+  background: #f7f7f7;
+  cursor: default;
+  text-align: center;
   color: #086090;
 }
 
 #chat .chat-object {
-	padding: 10px 5px 10px 30px;
-	height: 35px;
-	box-sizing: content-box;
-	margin: 10px;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	background: #f7f7f7;
+  padding: 10px 5px 10px 30px;
+  height: 35px;
+  box-sizing: content-box;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #f7f7f7;
 }
 
 #chat .chat-object:hover {
-	background: #fff;
-	margin-left: 20px;
+  background: #fff;
+  margin-left: 20px;
 }
 
 #chat .chat-object:active {
-	background: #fafafa;
-	margin-left: 25px;
+  background: #fafafa;
+  margin-left: 25px;
 }
 
 #chat .chat-object .chat-img {
-	width: 35px;
+  width: 35px;
   height: 35px;
-	border-radius: 50%;
-	margin-right: 20px;
-	float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+  float: left;
 }
 
 #chat .chat-object .online {
-	width: 8px;
-	height: 8px;
-	box-shadow: 0 0 0 3px #f7f7f7;
-	background: #86DC85;
-	display: none;
-	border-radius: 50%;
-	float: right;
+  width: 8px;
+  height: 8px;
+  box-shadow: 0 0 0 3px #f7f7f7;
+  background: #86DC85;
+  display: none;
+  border-radius: 50%;
+  float: right;
 }
 
 #chat .chat-object .chat-name {
   height: 35px;
-	font-size: 13px;
-	line-height: 35px;
-	overflow: hidden;
-	width: 120px;
+  font-size: 13px;
+  line-height: 35px;
+  overflow: hidden;
+  width: 120px;
   float: left;
 }
 
 #chat .chat-object .chat-icon {
   height: 35px;
-	font-size: 15px;
-	line-height: 37px;
-	float: left;
-	width: 20px;
-	color: #888;
-	font-family:'Simple-Line-Icons';
+  font-size: 15px;
+  line-height: 37px;
+  float: left;
+  width: 20px;
+  color: #888;
+  font-family:'Simple-Line-Icons';
 }
 
 #chat .chat-object .chat-icon:after { content: "\e086"; }
@@ -1055,9 +1055,9 @@
 .content-pages.chat { padding: 10px 0;}
 
 .chat-window {
-	background: #fff;
+  background: #fff;
   border: 1px solid #e5e5e5;
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .chat-header {   
@@ -1065,102 +1065,102 @@
 }
 
 .chat-header .item.name {
-	margin-right: 15px;
+  margin-right: 15px;
   display: inline;
   overflow: hidden;
 }
 
 .chat-header .item.name span:hover {
-	text-decoration: underline;
-	cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .chat-header .online {
-	border-radius: 50%;
-	opacity: 0;
-	width: 8px;
+  border-radius: 50%;
+  opacity: 0;
+  width: 8px;
   height: 8px;
-	background: #fff;
+  background: #fff;
   box-shadow: 0 0 0 3px #86dc85 , 0 0 0 6px #fff;
-	float: right;
+  float: right;
   margin: 10px; 
 }
 
 .chat-place {
-	min-height: 300px;
-	padding: 10px 0 20px 0;
+  min-height: 300px;
+  padding: 10px 0 20px 0;
 }
 
 .chat-place .table {
-	display: table;
-	width: 100%;
+  display: table;
+  width: 100%;
 }
 
 .chat-place  .chat-content,
 .chat-place  .chat-seen-scroller {
-	display: table-cell;
+  display: table-cell;
 }
 
 .chat-place  .chat-seen-scroller {
-	width: 19px;
+  width: 19px;
 }
 
 .chat-place .chat-seen-scroller .seen {
-	position: relative;
-	top: 0px;
+  position: relative;
+  top: 0px;
   width: 13px;
   height: 13px;
   border-radius: 50%;
-	margin: auto;
-	transition: all 0.6s ease;
+  margin: auto;
+  transition: all 0.6s ease;
 }
 
 .chat-place .sms-object { 
-	clear: both; 
-	transition: opacity 0.4s ease;
+  clear: both; 
+  transition: opacity 0.4s ease;
 }
 
-.chat-place .sms-object .sms-cont {	
-	margin: 5px; 
-	max-width: 100%;
-	padding: 0 10px;
+.chat-place .sms-object .sms-cont {  
+  margin: 5px; 
+  max-width: 100%;
+  padding: 0 10px;
 }
 
 .chat-place .sms-object .sms-cont.my { 
-	float: right; 
-	margin-right: -5px;
+  float: right; 
+  margin-right: -5px;
 }
 
 .chat-place .sms-object .sms-cont.friend { 
-	float: left; 
-	margin-left: 35px;
+  float: left; 
+  margin-left: 35px;
 }
 
-.chat-place .sms-object .sms-cont.my .sms-icon {	
-	float: right; 
-	margin-right: -40px;
-	display: none;
+.chat-place .sms-object .sms-cont.my .sms-icon {  
+  float: right; 
+  margin-right: -40px;
+  display: none;
 }
 
-.chat-place .sms-object .sms-cont.friend .sms-icon {	
-	float: left; 
-	margin-left: -35px;
+.chat-place .sms-object .sms-cont.friend .sms-icon {  
+  float: left; 
+  margin-left: -35px;
   margin-top: 2.5px;
 }
 
 .chat-place .sms-icon {
-	width: 25px;
+  width: 25px;
   height: 25px;
   border-radius: 50%;
 }
 
 .chat-place .sms-text {
-	background: #f4f4f4;
-	padding: 7px 10px;
+  background: #f4f4f4;
+  padding: 7px 10px;
   font-size: 13px;
-	max-width: 190px;
-	white-space: pre-wrap;
-	border: none;
+  max-width: 190px;
+  white-space: pre-wrap;
+  border: none;
 }
 
 .chat-place .arrow { display: none; }
@@ -1172,90 +1172,90 @@
 
 .chat-place .time,
 .chat-place .delete  {
-	font-size: 11px;
+  font-size: 11px;
   color: #e0e0e0;
   text-shadow: none;
   padding-top: 3px;
 }
 
 .chat-place .delete { 
-	font-family: "Fontello";
-	margin-left: 5px; 
-	cursor: pointer;
+  font-family: "Fontello";
+  margin-left: 5px; 
+  cursor: pointer;
 }
 
-.chat-place .friend .time ,	
-.chat-place .friend .delete {	
-	color: #aaa;
+.chat-place .friend .time ,  
+.chat-place .friend .delete {  
+  color: #aaa;
 }
 
 .chat-place .no-bg.sms-text {
-	background: transparent!important;
-	box-shadow: none!important;
+  background: transparent!important;
+  box-shadow: none!important;
   border: none!important;
 }
 
 .chat-place .sms-img {
-	width: 100px;
-	height: 100px;
+  width: 100px;
+  height: 100px;
   clear: both;
-	margin-top: 4px;
-	display: block;
-	cursor: pointer;
+  margin-top: 4px;
+  display: block;
+  cursor: pointer;
 }
 
 .chat-place .sms-sticker {
-	width: 130px;
-	height: 130px;
+  width: 130px;
+  height: 130px;
   clear: both;
-	margin-top: 4px;
-	display: inline-block;
+  margin-top: 4px;
+  display: inline-block;
 }
 
 .chat-place .sms-text .link-object {
-	color: inherit;
+  color: inherit;
 }
 
 .chat-controls {    
   box-shadow: 0 0 5px #ccc;
-	height: 70px;
+  height: 70px;
 }
 
 .chat-controls .chat-form  {
-	float: left;
+  float: left;
   height: 100%;
   width: 100%;
   margin-right: -40px;
-	padding: 15px;
+  padding: 15px;
   padding-right: 50px;
   border: none;
-	background: #fff;
-	font-size: 12px;
+  background: #fff;
+  font-size: 12px;
   resize: none;
-	color: #222;
-	font-weight: 300;
+  color: #222;
+  font-weight: 300;
 }
 
 .chat-controls .attach {
-	float:left;
-	height: 100%;
+  float:left;
+  height: 100%;
   width: 40px;
-	background: #fff;
+  background: #fff;
 }
 
 .chat-controls .chat-icon {
-	height: 50%;
-	text-align: center;
-	font-family: 'Fontello';
+  height: 50%;
+  text-align: center;
+  font-family: 'Fontello';
   line-height: 20px;   
-	font-size: 15px;
+  font-size: 15px;
   padding: 5px;
   color: #ccc;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .chat-controls.focus .chat-icon.send { 
-	line-height: 60px;
+  line-height: 60px;
   height: 100%;
   color: #2a80ba;
 }
@@ -1263,20 +1263,20 @@
 .chat-controls.blur .chat-icon.send ,
 .chat-controls.focus .chat-icon.simple ,
 .chat-controls.focus .chat-icon.simple {
-	opacity: 0;
-	margin: 0;
-	padding: 0;
-	height: 0;
-	width: 0;
-	height: 0;
-	overflow: hidden;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  height: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 .chat-place .video-object { 
-	white-space: normal; 
-	width: 170px;
-	margin: 5px 0;
-	float: none;
+  white-space: normal; 
+  width: 170px;
+  margin: 5px 0;
+  float: none;
 }
 
 .chat-place .video-body { padding: 5px; }
@@ -1285,171 +1285,171 @@
 .chat-place .audiolist { white-space: normal; }
 
 .chat-place .audio-object .audio-body { 
-	padding: 0;
+  padding: 0;
   text-shadow: none; 
 }
 
 .chat-place .audio-object,
 .chat-place .audio-object:last-child { 
-	margin: 0 0 5px;
+  margin: 0 0 5px;
 }
 
 .chat-place .audio-object {
-	box-shadow: none;
-	border-radius: 0;
-	width: 170px;
+  box-shadow: none;
+  border-radius: 0;
+  width: 170px;
 }
 
 .chat-place .audio-object .audio-body .audio-info .name { max-width: calc(100% - 25px); }
-.chat-place .audio-object .options  {	display: none; }
-.chat-place .audio-object .audio-line  {	display: none; }
+.chat-place .audio-object .options  {  display: none; }
+.chat-place .audio-object .audio-line  {  display: none; }
 .chat-place .audio-object .audio-body .audio-info .adding-options .opt { display: block; }
 .chat-place .audio-object .audio-body .dur { display: none; }
 
 .attach-box {
-	padding: 5px;
+  padding: 5px;
 }
 
 .attach-box .attach {
-	text-align: center;
-	margin: 5px;
-	padding: 5px;
-	border-bottom: 1px solid #eee;
-	color: #2a80ba;
-	font-size: 13px;
-	cursor: pointer;
-	transition: all 0.1s ease;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  color: #2a80ba;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.1s ease;
 }
 
 .attach-box .attach:hover {
-	background: #f4f4f4;
-	border-bottom: 1px solid #f4f4f4;
+  background: #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
 }
 
 #win-page .img-view-box { background: rgb( 0, 0, 0 ); }
 
 #win-page .img-view-box .close {
-	padding: 15px;
-	text-align: center;
-	font-family: 'Fontello';
-	color: #eee;
-	font-size: 17px;
-	cursor: pointer;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Fontello';
+  color: #eee;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 #win-page .img-view-box .img-standart-view {
-	margin: auto;
-	display: block;
-	max-width: 100%;
+  margin: auto;
+  display: block;
+  max-width: 100%;
   max-height: 100%;
 }
 
 #sticker-box {
-	height: 210px;
-	padding: 10px;
-	overflow-y: scroll;
+  height: 210px;
+  padding: 10px;
+  overflow-y: scroll;
 }
 
 #sticker-box .sticker-obj {
-	width: 58px;
-	height: 58px;
-	float: left;
-	margin: 4px;
-	cursor: pointer;
-	transition: all 0.2s ease;
+  width: 58px;
+  height: 58px;
+  float: left;
+  margin: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 #sticker-box .sticker-obj:hover {
-	background: #ECF1F7;
-	box-shadow: 0 0 0 5px #ECF1F7;
+  background: #ECF1F7;
+  box-shadow: 0 0 0 5px #ECF1F7;
 }
 
 #stickers-transition {
-	height: 40px;
-	background: #E3EAF3;
-	border-top: 1px solid #C9D1DC;
+  height: 40px;
+  background: #E3EAF3;
+  border-top: 1px solid #C9D1DC;
 }
 
 #stickers-transition .st-pack {
-	display: table-cell;
-	cursor: pointer;
+  display: table-cell;
+  cursor: pointer;
 }
 
 #stickers-transition .st-pack .st-img {
-	width:24px;
-	height:22px;
-	margin: 9px;
+  width:24px;
+  height:22px;
+  margin: 9px;
 }
 
 #stickers-transition .st-pack#shop {
-	display: none;
+  display: none;
 }
 
 #stickers-transition  .stick-main-img {
-	height: 22px;
-	width: 22px;
-	padding: 10px;
-	box-sizing: content-box;
-	display: block;
+  height: 22px;
+  width: 22px;
+  padding: 10px;
+  box-sizing: content-box;
+  display: block;
 }
 
 #stickers-transition  #stickers-scroll {
-	width: 210px;
-	float: left;
-	overflow: hidden;
+  width: 210px;
+  float: left;
+  overflow: hidden;
 }
 
 #stickers-transition  .stick-scroll-butt { 
-	height: 22px;
-	width: 22px;
-	padding: 10px;
-	display: block;
-	cursor: pointer;
+  height: 22px;
+  width: 22px;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
 }
 
 #stickers-transition  #stickers-scrolling-area { transition: all 0.2s ease; }
 #stickers-transition  #sticker-scroll-left ,
 #stickers-transition  #sticker-scroll-right  {
-	cursor: pointer;
-	padding: 12px 15px;
-	color: #B1B7C0;
-	font-family: 'Fontello';
-	float:left;
-	display:none;
+  cursor: pointer;
+  padding: 12px 15px;
+  color: #B1B7C0;
+  font-family: 'Fontello';
+  float:left;
+  display:none;
 }
 
 #win-content .box {
-	padding-bottom: 20px;
-	background: #fcfcfc;
-	min-height: 400px;
+  padding-bottom: 20px;
+  background: #fcfcfc;
+  min-height: 400px;
 }
 
 #win-content .box .about { 
-	background: #0071AF;
-	padding: 20px;
-	margin-bottom: 20px;
-	color: #fff;
+  background: #0071AF;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 #win-content .box .about .close { 
-	margin: 10px 0 -5px;
+  margin: 10px 0 -5px;
   padding: 5px 0;
   font-size: 13px;
   color: #eee;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #win-content .box .options { 
-	padding: 0 20px;
-	margin-bottom: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
 }
 
 #win-content .box .options .item { 
-	display: inline-block;
+  display: inline-block;
 }
 
 #win-content .box .options .item.count { 
-	background: #f8f8f8;
+  background: #f8f8f8;
   border: 1px solid #eee;
   padding: 8px 10px 9px;
   font-size: 13px;
@@ -1457,26 +1457,26 @@
 }
 
 #win-content .box .options .button { 
-	margin-top: 10px;
+  margin-top: 10px;
   display: block;
 }
 
 #win-content .box .content .item { 
-	margin: 5px 20px;
-	padding: 10px;
-	cursor: pointer;
+  margin: 5px 20px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 #win-content .box .content .item.simple { 
-	background: #f8f8f8;
+  background: #f8f8f8;
   border: 1px solid #eee;
-	color: #086090;
+  color: #086090;
 }
 
 #win-content .box .content .item.select { 
-	background: #2a80ba;
+  background: #2a80ba;
   border: 1px solid #2a80ba;
-	color: #fff;
+  color: #fff;
   text-shadow: 1px 1px 2px #555;
 }
 
@@ -1487,107 +1487,107 @@
 
 #win-content .box .content .video .icon ,
 #win-content .box .content .people .icon { 
-	width: 30px;
-	height: 30px;
-	float: left;
-	margin-left: -50px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: -50px;
   margin-top: -5px;
 }
 
 #win-content .img-view-box {
-	background: #000;
+  background: #000;
   padding: 10px;
 }
 
 #win-content .img-standart-view {
-	max-width: 100%;
+  max-width: 100%;
   max-height: 600px;
-	margin: auto;
+  margin: auto;
   display: block;
 }
 
 .main-layout .content {
-	padding: 20px;
+  padding: 20px;
   margin-top: 80px;
-	color: #2a80ba;
-	text-align: center;
+  color: #2a80ba;
+  text-align: center;
 }
 
 #win-content .content.media-view .header {
-	background: #000;
-	color: #fff;
-	padding: 20px;
+  background: #000;
+  color: #fff;
+  padding: 20px;
 }
 
 #win-content .content.media-view .footer {
-	padding: 20px;
+  padding: 20px;
 }
 
 #win-content .content .header .options {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #win-content .content .header .options:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #win-content .content .header .options .count {
-	font-size: 13px;
-	float: left;
+  font-size: 13px;
+  float: left;
 }
 
 #win-content .content .header .options .name {
-	font-size: 13px;
-	float: left;
-	max-width: 90%;
+  font-size: 13px;
+  float: left;
+  max-width: 90%;
 }
 
 #win-content .content .header .options .close {
-	font-family: "Fontello";
-	float: right;
-	cursor: pointer;
+  font-family: "Fontello";
+  float: right;
+  cursor: pointer;
 }
 
 #win-content .content .header .body {
-	display: table;
-	width: 100%;
-	table-layout: fixed;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 #win-content .content .header .item {
-	display: table-cell;
-	vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #win-content .content .header .next,
 #win-content .content .header .prev {
-	width: 50px;
-	background: rgba(255,255,255,0.05);
-	transition: all 0.2s ease;
-	text-align: center;
-	font-family: "Fontello";
-	cursor: pointer;
+  width: 50px;
+  background: rgba(255,255,255,0.05);
+  transition: all 0.2s ease;
+  text-align: center;
+  font-family: "Fontello";
+  cursor: pointer;
 }
 
 #win-content .content .header .next:hover ,
 #win-content .content .header .prev:hover {
-	background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.1);
 }
 
 #win-content .content .header .img { background: #080808; }
 
 #win-content .content .header .img img {
-	max-width: 100%;
+  max-width: 100%;
   max-height: 600px;
-	margin: auto;
+  margin: auto;
   display: block;
 }
 
 #win-content .content .footer .author {
-	width: inherit;
-	padding-bottom: 15px;
+  width: inherit;
+  padding-bottom: 15px;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
 }
@@ -1597,34 +1597,34 @@
 }
 
 #win-content .content .footer .info .title {
-	font-size: 13px;
+  font-size: 13px;
   text-transform: uppercase;
   color: #999;
 }
 
 #win-content .content .footer .info .about {
-	font-size: 12px;
+  font-size: 12px;
   color: #2a80ba;
 }
 
 #win-content .content .footer .auth-name {
-	overflow: hidden;
-	color: #2a80ba;
-	font-weight: 400;
+  overflow: hidden;
+  color: #2a80ba;
+  font-weight: 400;
 }
 
 #win-content .content .footer .auth-img {
-	width: 40px;
-	height: 40px;
-	float: left;
-	border-radius: 50%;
-	margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
 #win-content .content .footer .auth-name {
-	height: 40px;
-	line-height: 40px;
-	font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
 }
 
 #win-content .content .footer .open-post { cursor: pointer; }
@@ -1632,10 +1632,10 @@
 
 
 /* 
-	extra-light: #5BA0C5;
-	Light: #2a80ba;
-	Dark: #1378B4;
-	Extra Dark: #0071AF;
-	The Darkest: #086090;
-	Darker than the darkest : #07486D;
+  extra-light: #5BA0C5;
+  Light: #2a80ba;
+  Dark: #1378B4;
+  Extra Dark: #0071AF;
+  The Darkest: #086090;
+  Darker than the darkest : #07486D;
 */
