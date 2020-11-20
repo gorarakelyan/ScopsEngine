@@ -17,23 +17,6 @@
 * Community on [Facebook](https://www.facebook.com/ScopsPlatform/)
 * Community on [Envato](https://codecanyon.net/item/codeib-social-network/16541361/)
 
-## Donate
-
-You can donate 10$ by buying Scops on [CodeCanyon](https://codecanyon.net/item/codeib-social-network/16541361/)
-
-## Installation
-
-[Watch on YouTube](https://youtu.be/hiHP6hQ5xKo)
-
-## Authors
-
-* Gor Arakelyan
-
-## Acknowledgments
-
-* US Dollars ( For motivation )
-* Ivaylo Borisov ( For some UX/UI snippets )
-
 ## Features
 
 ![alt tag](http://i.imgur.com/v5YF3Oy.png)
@@ -42,53 +25,53 @@ You can donate 10$ by buying Scops on [CodeCanyon](https://codecanyon.net/item/c
 	* Login And Sign Up easy (Now is fast)
 	* Fast Ajax Based registration (make profile only with 4 steps)
 	* Fast Login (cache based login only with your password our system know your email)
-	* Password Reset (if you donít know you password don't worry reset it now)
+	* Password Reset (if you don‚Äôt know you password don't worry reset it now)
 
 * User Profile (Now looks great is different than Facebook)
 	* Upload photo and cover easy with one click
 	* Friends Section (your friends)
 	* Photos Section (your latest uploaded photos)
 	* Groups Section (in how much group you are)
-	* Profile Information (when you are born , how old are you etcÖ
-	* Wall and News (Of course we do not miss it to add a powerful wall for your social network you can expand more than 70 urlís any of which ìYouTubeî, ìVIMEOî , ìINSTAGRAMî , ìSOUNDCLOUDî etc..
+	* Profile Information (when you are born , how old are you etc‚Ä¶
+	* Wall and News (Of course we do not miss it to add a powerful wall for your social network you can expand more than 70 url‚Äôs any of which ‚ÄúYouTube‚Äù, ‚ÄúVIMEO‚Äù , ‚ÄúINSTAGRAM‚Äù , ‚ÄúSOUNDCLOUD‚Äù etc..
 
-* Settings ñ Manage Everything
+* Settings ‚Äì Manage Everything
 	* Profile Settings (update your profile)
 	* Groups Settings (manage groups settings)
 	* Change Profile name (you can change aways your name)
 	* Change profile password (change your password if you want new)
 	* Black List (add members to black list if you not want they to view your profile
-	* Delete your profile forever (our system will delete all your history , images , files and etc.. donít wory we are not information collectors
+	* Delete your profile forever (our system will delete all your history , images , files and etc.. don‚Äôt wory we are not information collectors
 	* Closed Profile (Great function yes ? with this function you can be calm from intruders)
 
-* News Feed ñ Comfort is important
+* News Feed ‚Äì Comfort is important
 	* Great Grid based design of our news feed comfort is important
 	* Follow the news of groups , friends and much more
 
-* Request ñ Real Notification
+* Request ‚Äì Real Notification
 	* Group Request (you will get invites from group in this section)
 	* Friends Request (The peoples who wants to be your friends will give you a friend request you can view it on the Friends Requests)
 
 * Notifications
 	* Likes ( you will get notification when someone like your post , photo , video etc..
 	* Shares (you will get notification when someone share your post to his wall)
-	* Dislikes (you will get notification when someone dislike your post , photo , video etcÖ
+	* Dislikes (you will get notification when someone dislike your post , photo , video etc‚Ä¶
 
-* Music ñ The Music Is life
+* Music ‚Äì The Music Is life
 	* Ajax based music player (when you browse on the website the music will not stop)
 	* Playlist (collect your favorite songs and play it fast when you want)
 
-* Guests ñ There are no secrets
+* Guests ‚Äì There are no secrets
 	* Guests (with this function you can view all users who have visited your profile)
-	* Enable/Disable (you can easy enable or disable this function if you donít like it
+	* Enable/Disable (you can easy enable or disable this function if you don‚Äôt like it
 
 * Entertainment
 
-* Games ñ Because we will kill boredom
+* Games ‚Äì Because we will kill boredom
 	* My Games (the games when you have played)
 	* Games Section
 
-* Dating ñ Meet With your love
+* Dating ‚Äì Meet With your love
 	* Like (like photos of participants in dating section)
 	* Wink (Wink to your future love)
 
@@ -98,30 +81,30 @@ You can donate 10$ by buying Scops on [CodeCanyon](https://codecanyon.net/item/c
 * Who is online
 	* This feature allows you to check who is online in the network
 
-* Top ñ 50
-	* Top ñ 50 function (here you will see the top 50 members in the website based on rating system)
+* Top ‚Äì 50
+	* Top ‚Äì 50 function (here you will see the top 50 members in the website based on rating system)
 
 * #Hashtags
 	* #Hashtags (Incredible #hashtags search engine ajax based just enter a word and you will get information of it if exits )
 
 * Search
-	* Ajax based search engine allows you to search members and groups (you can filter the search engine with function ìmembers online , male , female,etcÖ)
+	* Ajax based search engine allows you to search members and groups (you can filter the search engine with function ‚Äúmembers online , male , female,etc‚Ä¶)
 
-* Chat ñ is more than real
+* Chat ‚Äì is more than real
 	* Send images , videos, audios (our chat provide you a possibility to send media to your friends using the chat)
-	* Chat History (here you can view all chatís history)
+	* Chat History (here you can view all chat‚Äôs history)
 	* Drag able (move your chat and paste it wherever you want)
 
 * Sticker Store (For The chat)
 	* Sticker Store (our sticker store is very completed add or remove stickers from our stickers store)
 
-* Wall ñ Because itís convenient
+* Wall ‚Äì Because it‚Äôs convenient
 	* Attach photos (share photos with friends)
 	* Share links (Share links with friends
 	* Attach post (attach you important post of the top of your wall)
 	* Like (like your friends of yourself posts)
 	* Dislike (dislike your friends of yourself posts)
-	* Powerful expand url system (you can expand more than 70 URLs any of which ìYouTubeî, ìVIMEOî , ìINSTAGRAMî , ìSOUNDCLOUDî etc..)
+	* Powerful expand url system (you can expand more than 70 URLs any of which ‚ÄúYouTube‚Äù, ‚ÄúVIMEO‚Äù , ‚ÄúINSTAGRAM‚Äù , ‚ÄúSOUNDCLOUD‚Äù etc..)
 	* Delete posts (you can remove stories from your wall if you not like it)
 	* Pop up wall (like a twitter or vk )
 
